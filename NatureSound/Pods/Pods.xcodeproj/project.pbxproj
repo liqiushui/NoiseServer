@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FC290E048A3A6D4F108A67B1BFDEF0D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7064CE028126C7F537CE515F4B787F79 /* CFNetwork.framework */; };
+		2DD5B9DE9627A835B5EAE553A66E6E8C /* LoggerClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C171C3F77DA987AD68B83217F150DF2 /* LoggerClient.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		362F80A5C640037718ED3B78ABE69606 /* LoggerClient.h in Headers */ = {isa = PBXBuildFile; fileRef = AB5C3811FA03DD936D3D7EE71F702D10 /* LoggerClient.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4FFABB8F82BE07B7AE1CC5D7E8B1523D /* Pods-NatureSound-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74837D6D8EE52CEF0864577D5F558B1C /* Pods-NatureSound-dummy.m */; };
+		5F28AFEDB71939331C1F87B78772B1BA /* Pods-NatureSound-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AFE745DA9F9CC3870EB318F916A4BF5D /* Pods-NatureSound-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5F8DDA0BC53F35684DAAD15060D23A05 /* NSLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBDE0EE5B3440530ED48825A936ED26 /* NSLogger.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6D1FA0CD11D66D992531385E0AF4C686 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 877AD689F36CA0325CAF55EB146912E3 /* UIKit.framework */; };
+		75F682A81269B6A0A1D8BFE16309267A /* LoggerCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ECE610E58A0B08A33B9FFF6E8AE6C38 /* LoggerCommon.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		90D025CADB8785BFF88369B5C396004C /* NSLoggerSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = F05603712604B56BB8E7BDC3CDC504D8 /* NSLoggerSwift.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C5700C978CC14C355179B095E6E6B126 /* NSLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E98A2087E1D70D52E701B0FB64919D /* NSLogger-dummy.m */; };
+		DB8BBDCC494457EB8E953C83C924203D /* NSLogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 224C6C2FDECF6AE68F13D80EA23C66CA /* NSLogger-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DBA0FC528699A9BA0C07EEF2BD1239B4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D512F59808F317EBF0BE48DDB2ABA536 /* SystemConfiguration.framework */; };
+		E6A770B4197848FC287E8CB216C4623F /* NSLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = D48F426BACE036D8929A31675C72CCB1 /* NSLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E197574D57B7C24A6B19A38A9D26BFE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E5BC88009D9F4B52227EB8AA71F2CF6;
+			remoteInfo = NSLogger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02E6FF1AAB99F436DB052E80336B85ED /* Pods-NatureSound-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NatureSound-acknowledgements.plist"; sourceTree = "<group>"; };
+		0A45C17FD40586812E12DC35E3A2EE63 /* Pods-NatureSound.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NatureSound.debug.xcconfig"; sourceTree = "<group>"; };
+		0F1718FCD07B7397E735D356526910D7 /* libPods-NatureSound.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-NatureSound.a"; path = "libPods-NatureSound.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18256CC8AA617771E304E35849674AFF /* Pods-NatureSound-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NatureSound-frameworks.sh"; sourceTree = "<group>"; };
+		1ECE610E58A0B08A33B9FFF6E8AE6C38 /* LoggerCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LoggerCommon.h; path = Client/iOS/LoggerCommon.h; sourceTree = "<group>"; };
+		224C6C2FDECF6AE68F13D80EA23C66CA /* NSLogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLogger-umbrella.h"; path = "../../Headers/Public/NSLogger/NSLogger-umbrella.h"; sourceTree = "<group>"; };
+		2BBDE0EE5B3440530ED48825A936ED26 /* NSLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSLogger.swift; path = Client/iOS/NSLogger.swift; sourceTree = "<group>"; };
+		2C171C3F77DA987AD68B83217F150DF2 /* LoggerClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LoggerClient.m; path = Client/iOS/LoggerClient.m; sourceTree = "<group>"; };
+		2ECBB2FC6B5703BC989393D3785E7415 /* Pods-NatureSound-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NatureSound-acknowledgements.markdown"; sourceTree = "<group>"; };
+		45E98A2087E1D70D52E701B0FB64919D /* NSLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSLogger-dummy.m"; sourceTree = "<group>"; };
+		47D9124FA19D8BF7FCB222B5485FB89C /* Pods-NatureSound-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NatureSound-resources.sh"; sourceTree = "<group>"; };
+		7064CE028126C7F537CE515F4B787F79 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		74837D6D8EE52CEF0864577D5F558B1C /* Pods-NatureSound-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NatureSound-dummy.m"; sourceTree = "<group>"; };
+		7F5D6E68CE7A46BFA85754119860CD9C /* libNSLogger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libNSLogger.a; path = libNSLogger.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		877AD689F36CA0325CAF55EB146912E3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AB5C3811FA03DD936D3D7EE71F702D10 /* LoggerClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LoggerClient.h; path = Client/iOS/LoggerClient.h; sourceTree = "<group>"; };
+		AE901EA0771208FECE6FC579CFE8C05C /* NSLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSLogger-prefix.pch"; sourceTree = "<group>"; };
+		AFE745DA9F9CC3870EB318F916A4BF5D /* Pods-NatureSound-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NatureSound-umbrella.h"; sourceTree = "<group>"; };
+		B213F7E0334A5E67B6D3143C324B0C06 /* Pods-NatureSound.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NatureSound.release.xcconfig"; sourceTree = "<group>"; };
+		C7F98B3FDE2C90972AFF43F87AC58832 /* NSLogger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NSLogger.xcconfig; sourceTree = "<group>"; };
+		D48F426BACE036D8929A31675C72CCB1 /* NSLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NSLogger.h; path = Client/iOS/NSLogger.h; sourceTree = "<group>"; };
+		D512F59808F317EBF0BE48DDB2ABA536 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		F05603712604B56BB8E7BDC3CDC504D8 /* NSLoggerSwift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NSLoggerSwift.h; path = Client/iOS/NSLoggerSwift.h; sourceTree = "<group>"; };
+		FD479D8FBC728B6008651664FB496219 /* Pods-NatureSound.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NatureSound.modulemap"; sourceTree = "<group>"; };
+		FEB1C1ABDDF78A54C9A542A51284156F /* NSLogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = NSLogger.modulemap; path = ../../Headers/Public/NSLogger/NSLogger.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70F6F810BC755D47BAFEC21F1090E7A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4A26AF4583CF78202624618464C13F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FC290E048A3A6D4F108A67B1BFDEF0D /* CFNetwork.framework in Frameworks */,
+				DBA0FC528699A9BA0C07EEF2BD1239B4 /* SystemConfiguration.framework in Frameworks */,
+				6D1FA0CD11D66D992531385E0AF4C686 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0096CF86F588F8BCAE60FAD9741CD34D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F5D6E68CE7A46BFA85754119860CD9C /* libNSLogger.a */,
+				0F1718FCD07B7397E735D356526910D7 /* libPods-NatureSound.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A4F329F4571E5D67C36CDEABE00679B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		189F72ED5CBF949FF7AE598A71981224 /* Pods-NatureSound */ = {
+			isa = PBXGroup;
+			children = (
+				FD479D8FBC728B6008651664FB496219 /* Pods-NatureSound.modulemap */,
+				2ECBB2FC6B5703BC989393D3785E7415 /* Pods-NatureSound-acknowledgements.markdown */,
+				02E6FF1AAB99F436DB052E80336B85ED /* Pods-NatureSound-acknowledgements.plist */,
+				74837D6D8EE52CEF0864577D5F558B1C /* Pods-NatureSound-dummy.m */,
+				18256CC8AA617771E304E35849674AFF /* Pods-NatureSound-frameworks.sh */,
+				47D9124FA19D8BF7FCB222B5485FB89C /* Pods-NatureSound-resources.sh */,
+				AFE745DA9F9CC3870EB318F916A4BF5D /* Pods-NatureSound-umbrella.h */,
+				0A45C17FD40586812E12DC35E3A2EE63 /* Pods-NatureSound.debug.xcconfig */,
+				B213F7E0334A5E67B6D3143C324B0C06 /* Pods-NatureSound.release.xcconfig */,
+			);
+			name = "Pods-NatureSound";
+			path = "Target Support Files/Pods-NatureSound";
+			sourceTree = "<group>";
+		};
+		1A4F329F4571E5D67C36CDEABE00679B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7064CE028126C7F537CE515F4B787F79 /* CFNetwork.framework */,
+				D512F59808F317EBF0BE48DDB2ABA536 /* SystemConfiguration.framework */,
+				877AD689F36CA0325CAF55EB146912E3 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4FCB25F75CE519F5F40FD06364A86654 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEB1C1ABDDF78A54C9A542A51284156F /* NSLogger.modulemap */,
+				C7F98B3FDE2C90972AFF43F87AC58832 /* NSLogger.xcconfig */,
+				45E98A2087E1D70D52E701B0FB64919D /* NSLogger-dummy.m */,
+				AE901EA0771208FECE6FC579CFE8C05C /* NSLogger-prefix.pch */,
+				224C6C2FDECF6AE68F13D80EA23C66CA /* NSLogger-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NSLogger";
+			sourceTree = "<group>";
+		};
+		5697CAFB64296508AFA1A9304D20778F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				189F72ED5CBF949FF7AE598A71981224 /* Pods-NatureSound */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		71051D7CE787A13656DD623D398DC7F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1C5ED3483C0AAD8BD3F015ACAFD189C /* NSLogger */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				71051D7CE787A13656DD623D398DC7F1 /* Pods */,
+				0096CF86F588F8BCAE60FAD9741CD34D /* Products */,
+				5697CAFB64296508AFA1A9304D20778F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D445AA4BED88433A2A2868F87F06F473 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				2BBDE0EE5B3440530ED48825A936ED26 /* NSLogger.swift */,
+			);
+			name = Swift;
+			sourceTree = "<group>";
+		};
+		E1C5ED3483C0AAD8BD3F015ACAFD189C /* NSLogger */ = {
+			isa = PBXGroup;
+			children = (
+				F8516636D37A3630EB0425275ABB251B /* ObjC */,
+				4FCB25F75CE519F5F40FD06364A86654 /* Support Files */,
+				D445AA4BED88433A2A2868F87F06F473 /* Swift */,
+			);
+			name = NSLogger;
+			path = NSLogger;
+			sourceTree = "<group>";
+		};
+		F8516636D37A3630EB0425275ABB251B /* ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				AB5C3811FA03DD936D3D7EE71F702D10 /* LoggerClient.h */,
+				2C171C3F77DA987AD68B83217F150DF2 /* LoggerClient.m */,
+				1ECE610E58A0B08A33B9FFF6E8AE6C38 /* LoggerCommon.h */,
+				D48F426BACE036D8929A31675C72CCB1 /* NSLogger.h */,
+				F05603712604B56BB8E7BDC3CDC504D8 /* NSLoggerSwift.h */,
+			);
+			name = ObjC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		133D3CE3BD065AA83357CF8919853E83 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F28AFEDB71939331C1F87B78772B1BA /* Pods-NatureSound-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF230F011C28A54CE2BFBEA433D3BBCE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				362F80A5C640037718ED3B78ABE69606 /* LoggerClient.h in Headers */,
+				75F682A81269B6A0A1D8BFE16309267A /* LoggerCommon.h in Headers */,
+				DB8BBDCC494457EB8E953C83C924203D /* NSLogger-umbrella.h in Headers */,
+				E6A770B4197848FC287E8CB216C4623F /* NSLogger.h in Headers */,
+				90D025CADB8785BFF88369B5C396004C /* NSLoggerSwift.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4E5BC88009D9F4B52227EB8AA71F2CF6 /* NSLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06CD60BCB9905039D867D2AE5F81510B /* Build configuration list for PBXNativeTarget "NSLogger" */;
+			buildPhases = (
+				D5F8CCE3E18E26B6B5F60DF3668BDAFC /* Sources */,
+				F4A26AF4583CF78202624618464C13F6 /* Frameworks */,
+				DF230F011C28A54CE2BFBEA433D3BBCE /* Headers */,
+				3631A30B565CE1F7CD199CF66744484C /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSLogger;
+			productName = NSLogger;
+			productReference = 7F5D6E68CE7A46BFA85754119860CD9C /* libNSLogger.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5EAF5701ADB25E05C2C02C62E671C21F /* Pods-NatureSound */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B3156C10133D2278FADA6A6EC8040A4 /* Build configuration list for PBXNativeTarget "Pods-NatureSound" */;
+			buildPhases = (
+				D3AFA7CD84C3B87AB97D2BB69CBDC9E2 /* Sources */,
+				70F6F810BC755D47BAFEC21F1090E7A9 /* Frameworks */,
+				133D3CE3BD065AA83357CF8919853E83 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35E71CF9221B1E5F4E7C0EAAB4855200 /* PBXTargetDependency */,
+			);
+			name = "Pods-NatureSound";
+			productName = "Pods-NatureSound";
+			productReference = 0F1718FCD07B7397E735D356526910D7 /* libPods-NatureSound.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0096CF86F588F8BCAE60FAD9741CD34D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E5BC88009D9F4B52227EB8AA71F2CF6 /* NSLogger */,
+				5EAF5701ADB25E05C2C02C62E671C21F /* Pods-NatureSound */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3631A30B565CE1F7CD199CF66744484C /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/NSLogger/NSLogger.modulemap",
+				"${PODS_ROOT}/Headers/Public/NSLogger/NSLogger-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/NSLogger-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/NSLogger/NSLogger.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/NSLogger/NSLogger-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+			showEnvVarsInLog = 1;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3AFA7CD84C3B87AB97D2BB69CBDC9E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FFABB8F82BE07B7AE1CC5D7E8B1523D /* Pods-NatureSound-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5F8CCE3E18E26B6B5F60DF3668BDAFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DD5B9DE9627A835B5EAE553A66E6E8C /* LoggerClient.m in Sources */,
+				C5700C978CC14C355179B095E6E6B126 /* NSLogger-dummy.m in Sources */,
+				5F8DDA0BC53F35684DAAD15060D23A05 /* NSLogger.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35E71CF9221B1E5F4E7C0EAAB4855200 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NSLogger;
+			target = 4E5BC88009D9F4B52227EB8AA71F2CF6 /* NSLogger */;
+			targetProxy = E197574D57B7C24A6B19A38A9D26BFE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08638A96A528B1EC32DE62F8A728389D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7B51BE820E5D52A1C993D07F7B61FD87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A45C17FD40586812E12DC35E3A2EE63 /* Pods-NatureSound.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NatureSound/Pods-NatureSound.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88A1C5513D988CC816C5A3E18ED819EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7F98B3FDE2C90972AFF43F87AC58832 /* NSLogger.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/NSLogger/NSLogger-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/NSLogger/NSLogger.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = NSLogger;
+				PRODUCT_NAME = NSLogger;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9DAE5233986C01ADB6E67169C53A3FD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A32D2B6A4E5F2B4727C125BFEBCBC67D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7F98B3FDE2C90972AFF43F87AC58832 /* NSLogger.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/NSLogger/NSLogger-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/NSLogger/NSLogger.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = NSLogger;
+				PRODUCT_NAME = NSLogger;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD173359BB8C392E432172F04E3D1853 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B213F7E0334A5E67B6D3143C324B0C06 /* Pods-NatureSound.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NatureSound/Pods-NatureSound.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06CD60BCB9905039D867D2AE5F81510B /* Build configuration list for PBXNativeTarget "NSLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88A1C5513D988CC816C5A3E18ED819EA /* Debug */,
+				A32D2B6A4E5F2B4727C125BFEBCBC67D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DAE5233986C01ADB6E67169C53A3FD2 /* Debug */,
+				08638A96A528B1EC32DE62F8A728389D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B3156C10133D2278FADA6A6EC8040A4 /* Build configuration list for PBXNativeTarget "Pods-NatureSound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B51BE820E5D52A1C993D07F7B61FD87 /* Debug */,
+				DD173359BB8C392E432172F04E3D1853 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

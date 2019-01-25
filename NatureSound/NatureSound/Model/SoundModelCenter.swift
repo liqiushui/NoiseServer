@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import NSLogger
 
 class SoundModelCenter: NSObject {
     
@@ -29,6 +30,7 @@ class SoundModelCenter: NSObject {
     }
 
     public func loadList() {
-        
+        Logger.shared.log(.model, .info, "loadList")
+
     }
 }

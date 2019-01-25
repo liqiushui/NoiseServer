@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E99E1F9CDF24C5CF408A328 /* libPods-NatureSound.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F6D5B4EB0A37713A2A8FA4F /* libPods-NatureSound.a */; };
 		B85F994921FB13650037BCFA /* rain@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B85F994821FB13650037BCFA /* rain@2x.png */; };
 		B89DBF5F21FADEF1005DB702 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89DBF5E21FADEF1005DB702 /* AppDelegate.swift */; };
 		B89DBF6121FADEF1005DB702 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89DBF6021FADEF1005DB702 /* ViewController.swift */; };
@@ -39,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B85552478B04C42F06BBF36 /* Pods-NatureSound.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NatureSound.release.xcconfig"; path = "Pods/Target Support Files/Pods-NatureSound/Pods-NatureSound.release.xcconfig"; sourceTree = "<group>"; };
+		47355D6069DA511BABEE66C4 /* Pods-NatureSound.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NatureSound.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NatureSound/Pods-NatureSound.debug.xcconfig"; sourceTree = "<group>"; };
+		5F6D5B4EB0A37713A2A8FA4F /* libPods-NatureSound.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NatureSound.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B85F994521FB10970037BCFA /* list.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = list.json; sourceTree = "<group>"; };
 		B85F994721FB12B30037BCFA /* rain.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = rain.aac; sourceTree = "<group>"; };
 		B85F994821FB13650037BCFA /* rain@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rain@2x.png"; sourceTree = "<group>"; };
@@ -66,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E99E1F9CDF24C5CF408A328 /* libPods-NatureSound.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +91,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12458CEBE2261FCBA70C63C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47355D6069DA511BABEE66C4 /* Pods-NatureSound.debug.xcconfig */,
+				3B85552478B04C42F06BBF36 /* Pods-NatureSound.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B85F994621FB12890037BCFA /* Resource */ = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +116,8 @@
 				B89DBF7221FADEF1005DB702 /* NatureSoundTests */,
 				B89DBF7D21FADEF2005DB702 /* NatureSoundUITests */,
 				B89DBF5C21FADEF0005DB702 /* Products */,
+				12458CEBE2261FCBA70C63C5 /* Pods */,
+				BB1320E7C3DE13F7DDDAAF5C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -160,6 +176,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		BB1320E7C3DE13F7DDDAAF5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F6D5B4EB0A37713A2A8FA4F /* libPods-NatureSound.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -167,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B89DBF8321FADEF2005DB702 /* Build configuration list for PBXNativeTarget "NatureSound" */;
 			buildPhases = (
+				B95A66598F04A221FC5F405E /* [CP] Check Pods Manifest.lock */,
 				B89DBF5721FADEF0005DB702 /* Sources */,
 				B89DBF5821FADEF0005DB702 /* Frameworks */,
 				B89DBF5921FADEF0005DB702 /* Resources */,
@@ -287,6 +312,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B95A66598F04A221FC5F405E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NatureSound-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B89DBF5721FADEF0005DB702 /* Sources */ = {
@@ -470,11 +516,13 @@
 		};
 		B89DBF8421FADEF2005DB702 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47355D6069DA511BABEE66C4 /* Pods-NatureSound.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 35E4STCACH;
 				INFOPLIST_FILE = NatureSound/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -488,11 +536,13 @@
 		};
 		B89DBF8521FADEF2005DB702 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B85552478B04C42F06BBF36 /* Pods-NatureSound.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 35E4STCACH;
 				INFOPLIST_FILE = NatureSound/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

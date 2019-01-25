@@ -1,0 +1,6 @@
+module Pods_NatureSound {
+  umbrella header "Pods-NatureSound-umbrella.h"
+
+  export *
+  module * { export * }
+}
