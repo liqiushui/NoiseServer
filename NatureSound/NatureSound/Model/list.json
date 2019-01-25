@@ -1,0 +1,12 @@
+{
+    "version": 0,
+    "list": [
+        {
+            "soundID" : "rain",
+            "normalIcon" : "rain@2x.png",
+            "selectedIcon" : "",
+            "sourceType" : 0,
+            "url" : "rain.aac"
+        }
+    ]
+}

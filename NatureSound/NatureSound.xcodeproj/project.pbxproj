@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B85F994921FB13650037BCFA /* rain@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B85F994821FB13650037BCFA /* rain@2x.png */; };
+		B89DBF5F21FADEF1005DB702 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89DBF5E21FADEF1005DB702 /* AppDelegate.swift */; };
+		B89DBF6121FADEF1005DB702 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89DBF6021FADEF1005DB702 /* ViewController.swift */; };
+		B89DBF6421FADEF1005DB702 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B89DBF6221FADEF1005DB702 /* Main.storyboard */; };
+		B89DBF6621FADEF1005DB702 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B89DBF6521FADEF1005DB702 /* Assets.xcassets */; };
+		B89DBF6921FADEF1005DB702 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B89DBF6721FADEF1005DB702 /* LaunchScreen.storyboard */; };
+		B89DBF7421FADEF1005DB702 /* NatureSoundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89DBF7321FADEF1005DB702 /* NatureSoundTests.swift */; };
+		B89DBF7F21FADEF2005DB702 /* NatureSoundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89DBF7E21FADEF2005DB702 /* NatureSoundUITests.swift */; };
+		B89DC02D21FB04E3005DB702 /* SoundCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89DC02B21FB04E3005DB702 /* SoundCollectionViewCell.swift */; };
+		B89DC02E21FB04E3005DB702 /* SoundCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B89DC02C21FB04E3005DB702 /* SoundCollectionViewCell.xib */; };
+		B89DC03121FB08B0005DB702 /* SoundItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89DC03021FB08B0005DB702 /* SoundItem.swift */; };
+		B89DC03321FB0CED005DB702 /* SoundModelCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89DC03221FB0CED005DB702 /* SoundModelCenter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B89DBF7021FADEF1005DB702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B89DBF5321FADEF0005DB702 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B89DBF5A21FADEF0005DB702;
+			remoteInfo = NatureSound;
+		};
+		B89DBF7B21FADEF2005DB702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B89DBF5321FADEF0005DB702 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B89DBF5A21FADEF0005DB702;
+			remoteInfo = NatureSound;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B85F994521FB10970037BCFA /* list.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = list.json; sourceTree = "<group>"; };
+		B85F994721FB12B30037BCFA /* rain.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = rain.aac; sourceTree = "<group>"; };
+		B85F994821FB13650037BCFA /* rain@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rain@2x.png"; sourceTree = "<group>"; };
+		B89DBF5B21FADEF0005DB702 /* NatureSound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NatureSound.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B89DBF5E21FADEF1005DB702 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B89DBF6021FADEF1005DB702 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B89DBF6321FADEF1005DB702 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B89DBF6521FADEF1005DB702 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B89DBF6821FADEF1005DB702 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B89DBF6A21FADEF1005DB702 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B89DBF6F21FADEF1005DB702 /* NatureSoundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NatureSoundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B89DBF7321FADEF1005DB702 /* NatureSoundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatureSoundTests.swift; sourceTree = "<group>"; };
+		B89DBF7521FADEF2005DB702 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B89DBF7A21FADEF2005DB702 /* NatureSoundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NatureSoundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B89DBF7E21FADEF2005DB702 /* NatureSoundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatureSoundUITests.swift; sourceTree = "<group>"; };
+		B89DBF8021FADEF2005DB702 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B89DC02B21FB04E3005DB702 /* SoundCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundCollectionViewCell.swift; sourceTree = "<group>"; };
+		B89DC02C21FB04E3005DB702 /* SoundCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SoundCollectionViewCell.xib; sourceTree = "<group>"; };
+		B89DC03021FB08B0005DB702 /* SoundItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundItem.swift; sourceTree = "<group>"; };
+		B89DC03221FB0CED005DB702 /* SoundModelCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundModelCenter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B89DBF5821FADEF0005DB702 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B89DBF6C21FADEF1005DB702 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B89DBF7721FADEF2005DB702 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B85F994621FB12890037BCFA /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				B85F994821FB13650037BCFA /* rain@2x.png */,
+				B85F994721FB12B30037BCFA /* rain.aac */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		B89DBF5221FADEF0005DB702 = {
+			isa = PBXGroup;
+			children = (
+				B89DBF5D21FADEF0005DB702 /* NatureSound */,
+				B89DBF7221FADEF1005DB702 /* NatureSoundTests */,
+				B89DBF7D21FADEF2005DB702 /* NatureSoundUITests */,
+				B89DBF5C21FADEF0005DB702 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B89DBF5C21FADEF0005DB702 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B89DBF5B21FADEF0005DB702 /* NatureSound.app */,
+				B89DBF6F21FADEF1005DB702 /* NatureSoundTests.xctest */,
+				B89DBF7A21FADEF2005DB702 /* NatureSoundUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B89DBF5D21FADEF0005DB702 /* NatureSound */ = {
+			isa = PBXGroup;
+			children = (
+				B85F994621FB12890037BCFA /* Resource */,
+				B89DC02F21FB0897005DB702 /* Model */,
+				B89DBF5E21FADEF1005DB702 /* AppDelegate.swift */,
+				B89DBF6021FADEF1005DB702 /* ViewController.swift */,
+				B89DC02B21FB04E3005DB702 /* SoundCollectionViewCell.swift */,
+				B89DC02C21FB04E3005DB702 /* SoundCollectionViewCell.xib */,
+				B89DBF6221FADEF1005DB702 /* Main.storyboard */,
+				B89DBF6521FADEF1005DB702 /* Assets.xcassets */,
+				B89DBF6721FADEF1005DB702 /* LaunchScreen.storyboard */,
+				B89DBF6A21FADEF1005DB702 /* Info.plist */,
+			);
+			path = NatureSound;
+			sourceTree = "<group>";
+		};
+		B89DBF7221FADEF1005DB702 /* NatureSoundTests */ = {
+			isa = PBXGroup;
+			children = (
+				B89DBF7321FADEF1005DB702 /* NatureSoundTests.swift */,
+				B89DBF7521FADEF2005DB702 /* Info.plist */,
+			);
+			path = NatureSoundTests;
+			sourceTree = "<group>";
+		};
+		B89DBF7D21FADEF2005DB702 /* NatureSoundUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B89DBF7E21FADEF2005DB702 /* NatureSoundUITests.swift */,
+				B89DBF8021FADEF2005DB702 /* Info.plist */,
+			);
+			path = NatureSoundUITests;
+			sourceTree = "<group>";
+		};
+		B89DC02F21FB0897005DB702 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B89DC03021FB08B0005DB702 /* SoundItem.swift */,
+				B89DC03221FB0CED005DB702 /* SoundModelCenter.swift */,
+				B85F994521FB10970037BCFA /* list.json */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B89DBF5A21FADEF0005DB702 /* NatureSound */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B89DBF8321FADEF2005DB702 /* Build configuration list for PBXNativeTarget "NatureSound" */;
+			buildPhases = (
+				B89DBF5721FADEF0005DB702 /* Sources */,
+				B89DBF5821FADEF0005DB702 /* Frameworks */,
+				B89DBF5921FADEF0005DB702 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NatureSound;
+			productName = NatureSound;
+			productReference = B89DBF5B21FADEF0005DB702 /* NatureSound.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B89DBF6E21FADEF1005DB702 /* NatureSoundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B89DBF8621FADEF2005DB702 /* Build configuration list for PBXNativeTarget "NatureSoundTests" */;
+			buildPhases = (
+				B89DBF6B21FADEF1005DB702 /* Sources */,
+				B89DBF6C21FADEF1005DB702 /* Frameworks */,
+				B89DBF6D21FADEF1005DB702 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B89DBF7121FADEF1005DB702 /* PBXTargetDependency */,
+			);
+			name = NatureSoundTests;
+			productName = NatureSoundTests;
+			productReference = B89DBF6F21FADEF1005DB702 /* NatureSoundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B89DBF7921FADEF2005DB702 /* NatureSoundUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B89DBF8921FADEF2005DB702 /* Build configuration list for PBXNativeTarget "NatureSoundUITests" */;
+			buildPhases = (
+				B89DBF7621FADEF2005DB702 /* Sources */,
+				B89DBF7721FADEF2005DB702 /* Frameworks */,
+				B89DBF7821FADEF2005DB702 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B89DBF7C21FADEF2005DB702 /* PBXTargetDependency */,
+			);
+			name = NatureSoundUITests;
+			productName = NatureSoundUITests;
+			productReference = B89DBF7A21FADEF2005DB702 /* NatureSoundUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B89DBF5321FADEF0005DB702 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = lunli;
+				TargetAttributes = {
+					B89DBF5A21FADEF0005DB702 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					B89DBF6E21FADEF1005DB702 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = B89DBF5A21FADEF0005DB702;
+					};
+					B89DBF7921FADEF2005DB702 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = B89DBF5A21FADEF0005DB702;
+					};
+				};
+			};
+			buildConfigurationList = B89DBF5621FADEF0005DB702 /* Build configuration list for PBXProject "NatureSound" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B89DBF5221FADEF0005DB702;
+			productRefGroup = B89DBF5C21FADEF0005DB702 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B89DBF5A21FADEF0005DB702 /* NatureSound */,
+				B89DBF6E21FADEF1005DB702 /* NatureSoundTests */,
+				B89DBF7921FADEF2005DB702 /* NatureSoundUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B89DBF5921FADEF0005DB702 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B85F994921FB13650037BCFA /* rain@2x.png in Resources */,
+				B89DC02E21FB04E3005DB702 /* SoundCollectionViewCell.xib in Resources */,
+				B89DBF6921FADEF1005DB702 /* LaunchScreen.storyboard in Resources */,
+				B89DBF6621FADEF1005DB702 /* Assets.xcassets in Resources */,
+				B89DBF6421FADEF1005DB702 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B89DBF6D21FADEF1005DB702 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B89DBF7821FADEF2005DB702 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B89DBF5721FADEF0005DB702 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B89DC03321FB0CED005DB702 /* SoundModelCenter.swift in Sources */,
+				B89DBF6121FADEF1005DB702 /* ViewController.swift in Sources */,
+				B89DC02D21FB04E3005DB702 /* SoundCollectionViewCell.swift in Sources */,
+				B89DC03121FB08B0005DB702 /* SoundItem.swift in Sources */,
+				B89DBF5F21FADEF1005DB702 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B89DBF6B21FADEF1005DB702 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B89DBF7421FADEF1005DB702 /* NatureSoundTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B89DBF7621FADEF2005DB702 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B89DBF7F21FADEF2005DB702 /* NatureSoundUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B89DBF7121FADEF1005DB702 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B89DBF5A21FADEF0005DB702 /* NatureSound */;
+			targetProxy = B89DBF7021FADEF1005DB702 /* PBXContainerItemProxy */;
+		};
+		B89DBF7C21FADEF2005DB702 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B89DBF5A21FADEF0005DB702 /* NatureSound */;
+			targetProxy = B89DBF7B21FADEF2005DB702 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B89DBF6221FADEF1005DB702 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B89DBF6321FADEF1005DB702 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B89DBF6721FADEF1005DB702 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B89DBF6821FADEF1005DB702 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B89DBF8121FADEF2005DB702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B89DBF8221FADEF2005DB702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B89DBF8421FADEF2005DB702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35E4STCACH;
+				INFOPLIST_FILE = NatureSound/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lunli.naturesound.NatureSound;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B89DBF8521FADEF2005DB702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35E4STCACH;
+				INFOPLIST_FILE = NatureSound/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lunli.naturesound.NatureSound;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B89DBF8721FADEF2005DB702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35E4STCACH;
+				INFOPLIST_FILE = NatureSoundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lunli.naturesound.NatureSoundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NatureSound.app/NatureSound";
+			};
+			name = Debug;
+		};
+		B89DBF8821FADEF2005DB702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35E4STCACH;
+				INFOPLIST_FILE = NatureSoundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lunli.naturesound.NatureSoundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NatureSound.app/NatureSound";
+			};
+			name = Release;
+		};
+		B89DBF8A21FADEF2005DB702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35E4STCACH;
+				INFOPLIST_FILE = NatureSoundUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lunli.naturesound.NatureSoundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NatureSound;
+			};
+			name = Debug;
+		};
+		B89DBF8B21FADEF2005DB702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35E4STCACH;
+				INFOPLIST_FILE = NatureSoundUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lunli.naturesound.NatureSoundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NatureSound;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B89DBF5621FADEF0005DB702 /* Build configuration list for PBXProject "NatureSound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B89DBF8121FADEF2005DB702 /* Debug */,
+				B89DBF8221FADEF2005DB702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B89DBF8321FADEF2005DB702 /* Build configuration list for PBXNativeTarget "NatureSound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B89DBF8421FADEF2005DB702 /* Debug */,
+				B89DBF8521FADEF2005DB702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B89DBF8621FADEF2005DB702 /* Build configuration list for PBXNativeTarget "NatureSoundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B89DBF8721FADEF2005DB702 /* Debug */,
+				B89DBF8821FADEF2005DB702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B89DBF8921FADEF2005DB702 /* Build configuration list for PBXNativeTarget "NatureSoundUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B89DBF8A21FADEF2005DB702 /* Debug */,
+				B89DBF8B21FADEF2005DB702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B89DBF5321FADEF0005DB702 /* Project object */;
+}
