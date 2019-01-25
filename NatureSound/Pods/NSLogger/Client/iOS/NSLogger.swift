@@ -155,6 +155,10 @@ public final class Logger {
             LogData_noFormat(file, line, function, domain.rawValue, level.rawValue, data())
         }
     }
+    
+    public func logToConsole() {
+        LoggerSetOptions(nil, 1)
+    }
 }
 
 

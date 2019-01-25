@@ -11,7 +11,7 @@ import UIKit
 class SoundItem: NSObject {
     
     public var soundID: String?
-    public var path: String?
+    public var url: String?
     public var normalIcon: String?
     public var selectedIcon: String?
     //0 表示本地资源 1 表示远程资源

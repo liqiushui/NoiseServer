@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		1E99E1F9CDF24C5CF408A328 /* libPods-NatureSound.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F6D5B4EB0A37713A2A8FA4F /* libPods-NatureSound.a */; };
 		B85F994921FB13650037BCFA /* rain@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B85F994821FB13650037BCFA /* rain@2x.png */; };
+		B85F994C21FB1CA60037BCFA /* TestCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85F994B21FB1CA60037BCFA /* TestCenter.swift */; };
+		B85F994D21FB23F10037BCFA /* rain.aac in Resources */ = {isa = PBXBuildFile; fileRef = B85F994721FB12B30037BCFA /* rain.aac */; };
+		B85F994E21FB23FB0037BCFA /* list.json in Resources */ = {isa = PBXBuildFile; fileRef = B85F994521FB10970037BCFA /* list.json */; };
 		B89DBF5F21FADEF1005DB702 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89DBF5E21FADEF1005DB702 /* AppDelegate.swift */; };
 		B89DBF6121FADEF1005DB702 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89DBF6021FADEF1005DB702 /* ViewController.swift */; };
 		B89DBF6421FADEF1005DB702 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B89DBF6221FADEF1005DB702 /* Main.storyboard */; };
@@ -46,6 +49,7 @@
 		B85F994521FB10970037BCFA /* list.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = list.json; sourceTree = "<group>"; };
 		B85F994721FB12B30037BCFA /* rain.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = rain.aac; sourceTree = "<group>"; };
 		B85F994821FB13650037BCFA /* rain@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rain@2x.png"; sourceTree = "<group>"; };
+		B85F994B21FB1CA60037BCFA /* TestCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCenter.swift; sourceTree = "<group>"; };
 		B89DBF5B21FADEF0005DB702 /* NatureSound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NatureSound.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B89DBF5E21FADEF1005DB702 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B89DBF6021FADEF1005DB702 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +113,14 @@
 			path = Resource;
 			sourceTree = "<group>";
 		};
+		B85F994A21FB1C340037BCFA /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				B85F994B21FB1CA60037BCFA /* TestCenter.swift */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
 		B89DBF5221FADEF0005DB702 = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +146,7 @@
 		B89DBF5D21FADEF0005DB702 /* NatureSound */ = {
 			isa = PBXGroup;
 			children = (
+				B85F994A21FB1C340037BCFA /* Test */,
 				B85F994621FB12890037BCFA /* Resource */,
 				B89DC02F21FB0897005DB702 /* Model */,
 				B89DBF5E21FADEF1005DB702 /* AppDelegate.swift */,
@@ -289,6 +302,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B85F994E21FB23FB0037BCFA /* list.json in Resources */,
+				B85F994D21FB23F10037BCFA /* rain.aac in Resources */,
 				B85F994921FB13650037BCFA /* rain@2x.png in Resources */,
 				B89DC02E21FB04E3005DB702 /* SoundCollectionViewCell.xib in Resources */,
 				B89DBF6921FADEF1005DB702 /* LaunchScreen.storyboard in Resources */,
@@ -339,6 +354,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B85F994C21FB1CA60037BCFA /* TestCenter.swift in Sources */,
 				B89DC03321FB0CED005DB702 /* SoundModelCenter.swift in Sources */,
 				B89DBF6121FADEF1005DB702 /* ViewController.swift in Sources */,
 				B89DC02D21FB04E3005DB702 /* SoundCollectionViewCell.swift in Sources */,
