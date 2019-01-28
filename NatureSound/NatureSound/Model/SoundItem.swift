@@ -17,6 +17,14 @@ class SoundItem: NSObject {
     //0 表示本地资源 1 表示远程资源
     public var sourceType: Int = 0
     
+    @objc override func isEqual(_ object: Any?) -> Bool {
+        
+        if let otherItem = object as? SoundItem {
+            return self.soundID == otherItem.soundID
+        }
+        return false
+    }
+    
 }
 
 
@@ -30,5 +38,13 @@ class SoundPlayItem: NSObject {
     init(item:SoundItem) {
         self.model = item
         super.init()
+    }
+    
+    @objc override func isEqual(_ object: Any?) -> Bool {
+        
+        if let otherItem = object as? SoundPlayItem {
+            return self.model.soundID == otherItem.model.soundID
+        }
+        return false
     }
 }

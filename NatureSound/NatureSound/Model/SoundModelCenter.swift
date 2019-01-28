@@ -27,6 +27,7 @@ class SoundModelCenter: NSObject {
     private override init() {
         list = []
         super.init()
+        loadList()
     }
 
     public func loadList() {

@@ -10,9 +10,29 @@ import UIKit
 
 class SoundCollectionViewCell: UICollectionViewCell {
 
+    public var model: SoundPlayItem? {
+        didSet {
+            updateUI()
+        }
+    }
+    
+    func updateUI() {
+        
+        playBtn.setImage(nil, for: UIControl.State.normal)
+        
+        if let icon = model?.model.normalIcon {
+            let img = UIImage.init(imageLiteralResourceName: icon)
+            playBtn.setImage(img, for: UIControl.State.normal)
+        }
+
+        setNeedsDisplay()
+    }
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
-
+    
+    @IBOutlet weak var playBtn: UIButton!
+    
 }

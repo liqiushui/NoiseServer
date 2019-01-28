@@ -12,6 +12,8 @@
 		B85F994C21FB1CA60037BCFA /* TestCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85F994B21FB1CA60037BCFA /* TestCenter.swift */; };
 		B85F994D21FB23F10037BCFA /* rain.aac in Resources */ = {isa = PBXBuildFile; fileRef = B85F994721FB12B30037BCFA /* rain.aac */; };
 		B85F994E21FB23FB0037BCFA /* list.json in Resources */ = {isa = PBXBuildFile; fileRef = B85F994521FB10970037BCFA /* list.json */; };
+		B85F995021FEA4330037BCFA /* fire@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B85F994F21FEA4330037BCFA /* fire@2x.png */; };
+		B85F995321FEA5580037BCFA /* SoundViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85F995221FEA5580037BCFA /* SoundViewModel.swift */; };
 		B89DBF5F21FADEF1005DB702 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89DBF5E21FADEF1005DB702 /* AppDelegate.swift */; };
 		B89DBF6121FADEF1005DB702 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89DBF6021FADEF1005DB702 /* ViewController.swift */; };
 		B89DBF6421FADEF1005DB702 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B89DBF6221FADEF1005DB702 /* Main.storyboard */; };
@@ -50,6 +52,9 @@
 		B85F994721FB12B30037BCFA /* rain.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = rain.aac; sourceTree = "<group>"; };
 		B85F994821FB13650037BCFA /* rain@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rain@2x.png"; sourceTree = "<group>"; };
 		B85F994B21FB1CA60037BCFA /* TestCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCenter.swift; sourceTree = "<group>"; };
+		B85F994F21FEA4330037BCFA /* fire@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fire@2x.png"; sourceTree = "<group>"; };
+		B85F995121FEA4460037BCFA /* fire.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = fire.aac; sourceTree = "<group>"; };
+		B85F995221FEA5580037BCFA /* SoundViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundViewModel.swift; sourceTree = "<group>"; };
 		B89DBF5B21FADEF0005DB702 /* NatureSound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NatureSound.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B89DBF5E21FADEF1005DB702 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B89DBF6021FADEF1005DB702 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -107,6 +112,8 @@
 		B85F994621FB12890037BCFA /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				B85F995121FEA4460037BCFA /* fire.aac */,
+				B85F994F21FEA4330037BCFA /* fire@2x.png */,
 				B85F994821FB13650037BCFA /* rain@2x.png */,
 				B85F994721FB12B30037BCFA /* rain.aac */,
 			);
@@ -184,6 +191,7 @@
 			children = (
 				B89DC03021FB08B0005DB702 /* SoundItem.swift */,
 				B89DC03221FB0CED005DB702 /* SoundModelCenter.swift */,
+				B85F995221FEA5580037BCFA /* SoundViewModel.swift */,
 				B85F994521FB10970037BCFA /* list.json */,
 			);
 			path = Model;
@@ -308,6 +316,7 @@
 				B89DC02E21FB04E3005DB702 /* SoundCollectionViewCell.xib in Resources */,
 				B89DBF6921FADEF1005DB702 /* LaunchScreen.storyboard in Resources */,
 				B89DBF6621FADEF1005DB702 /* Assets.xcassets in Resources */,
+				B85F995021FEA4330037BCFA /* fire@2x.png in Resources */,
 				B89DBF6421FADEF1005DB702 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -357,6 +366,7 @@
 				B85F994C21FB1CA60037BCFA /* TestCenter.swift in Sources */,
 				B89DC03321FB0CED005DB702 /* SoundModelCenter.swift in Sources */,
 				B89DBF6121FADEF1005DB702 /* ViewController.swift in Sources */,
+				B85F995321FEA5580037BCFA /* SoundViewModel.swift in Sources */,
 				B89DC02D21FB04E3005DB702 /* SoundCollectionViewCell.swift in Sources */,
 				B89DC03121FB08B0005DB702 /* SoundItem.swift in Sources */,
 				B89DBF5F21FADEF1005DB702 /* AppDelegate.swift in Sources */,
