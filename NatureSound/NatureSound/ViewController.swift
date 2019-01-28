@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import AVFoundation
 
-class ViewController: UIViewController, UICollectionViewDataSource,  UICollectionViewDelegate{
+class ViewController: UIViewController, UICollectionViewDataSource,  UICollectionViewDelegate, AVAudioPlayerDelegate{
     
     @IBOutlet weak var colview: UICollectionView!
     
@@ -48,6 +49,35 @@ class ViewController: UIViewController, UICollectionViewDataSource,  UICollectio
         cell.model = model.models[indexPath.row]
         
         return cell
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+        let cell = collectionView.cellForItem(at: indexPath) as! SoundCollectionViewCell
+        cell.model!.selected = !cell.model!.selected
+        cell.updateUI()
+        tryPlayItem(item: cell.model!)
+    }
+    
+    func tryPlayItem(item : SoundPlayItem) {
+        if item.selected {
+            if let path = item.model.url {
+                
+                let audioPath = Bundle.main.path(forResource: path,
+                                                 ofType: "")
+                if audioPath != nil, let Url = URL.init(string: audioPath!) {
+                    
+                    NSAudioPlayCenter.shareCenter().playAudio(url: Url,
+                                                              key: item.model.soundID!,
+                                                              delegate: self)
+                }
+
+            }
+        }
+        else {
+            NSAudioPlayCenter.shareCenter().stopPlayAudio(key: item.model.soundID!)
+        }
+        
     }
 }
 

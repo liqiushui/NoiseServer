@@ -14,6 +14,9 @@
 		B85F994E21FB23FB0037BCFA /* list.json in Resources */ = {isa = PBXBuildFile; fileRef = B85F994521FB10970037BCFA /* list.json */; };
 		B85F995021FEA4330037BCFA /* fire@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B85F994F21FEA4330037BCFA /* fire@2x.png */; };
 		B85F995321FEA5580037BCFA /* SoundViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85F995221FEA5580037BCFA /* SoundViewModel.swift */; };
+		B85F995821FED5CC0037BCFA /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85F995721FED5CC0037BCFA /* UIImageExtension.swift */; };
+		B85F995B21FED9660037BCFA /* NSAudioPlayCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85F995A21FED9660037BCFA /* NSAudioPlayCenter.swift */; };
+		B85F995C21FEE5710037BCFA /* fire.aac in Resources */ = {isa = PBXBuildFile; fileRef = B85F995121FEA4460037BCFA /* fire.aac */; };
 		B89DBF5F21FADEF1005DB702 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89DBF5E21FADEF1005DB702 /* AppDelegate.swift */; };
 		B89DBF6121FADEF1005DB702 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89DBF6021FADEF1005DB702 /* ViewController.swift */; };
 		B89DBF6421FADEF1005DB702 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B89DBF6221FADEF1005DB702 /* Main.storyboard */; };
@@ -55,6 +58,8 @@
 		B85F994F21FEA4330037BCFA /* fire@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fire@2x.png"; sourceTree = "<group>"; };
 		B85F995121FEA4460037BCFA /* fire.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = fire.aac; sourceTree = "<group>"; };
 		B85F995221FEA5580037BCFA /* SoundViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundViewModel.swift; sourceTree = "<group>"; };
+		B85F995721FED5CC0037BCFA /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		B85F995A21FED9660037BCFA /* NSAudioPlayCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAudioPlayCenter.swift; sourceTree = "<group>"; };
 		B89DBF5B21FADEF0005DB702 /* NatureSound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NatureSound.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B89DBF5E21FADEF1005DB702 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B89DBF6021FADEF1005DB702 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -128,6 +133,22 @@
 			path = Test;
 			sourceTree = "<group>";
 		};
+		B85F995421FED5660037BCFA /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B85F995721FED5CC0037BCFA /* UIImageExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B85F995921FED8AD0037BCFA /* AudopEngine */ = {
+			isa = PBXGroup;
+			children = (
+				B85F995A21FED9660037BCFA /* NSAudioPlayCenter.swift */,
+			);
+			path = AudopEngine;
+			sourceTree = "<group>";
+		};
 		B89DBF5221FADEF0005DB702 = {
 			isa = PBXGroup;
 			children = (
@@ -153,6 +174,8 @@
 		B89DBF5D21FADEF0005DB702 /* NatureSound */ = {
 			isa = PBXGroup;
 			children = (
+				B85F995921FED8AD0037BCFA /* AudopEngine */,
+				B85F995421FED5660037BCFA /* Extension */,
 				B85F994A21FB1C340037BCFA /* Test */,
 				B85F994621FB12890037BCFA /* Resource */,
 				B89DC02F21FB0897005DB702 /* Model */,
@@ -310,6 +333,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B85F995C21FEE5710037BCFA /* fire.aac in Resources */,
 				B85F994E21FB23FB0037BCFA /* list.json in Resources */,
 				B85F994D21FB23F10037BCFA /* rain.aac in Resources */,
 				B85F994921FB13650037BCFA /* rain@2x.png in Resources */,
@@ -370,6 +394,8 @@
 				B89DC02D21FB04E3005DB702 /* SoundCollectionViewCell.swift in Sources */,
 				B89DC03121FB08B0005DB702 /* SoundItem.swift in Sources */,
 				B89DBF5F21FADEF1005DB702 /* AppDelegate.swift in Sources */,
+				B85F995821FED5CC0037BCFA /* UIImageExtension.swift in Sources */,
+				B85F995B21FED9660037BCFA /* NSAudioPlayCenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

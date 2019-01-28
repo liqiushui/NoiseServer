@@ -20,17 +20,31 @@ class SoundCollectionViewCell: UICollectionViewCell {
         
         playBtn.setImage(nil, for: UIControl.State.normal)
         
-        if let icon = model?.model.normalIcon {
+        if let m = model {
+            
+            let icon = m.model.normalIcon ?? ""
             let img = UIImage.init(imageLiteralResourceName: icon)
-            playBtn.setImage(img, for: UIControl.State.normal)
+            if m.selected {
+                
+                playBtn.setImage(img, for: UIControl.State.normal)
+                playBtn.setImage(img, for: UIControl.State.disabled)
+            }
+            else {
+                
+                playBtn.setImage(img.tintedImageUsingColor(tintColor: UIColor.gray),
+                                 for: UIControl.State.normal)
+                playBtn.setImage(img.tintedImageUsingColor(tintColor: UIColor.gray),
+                                 for: UIControl.State.disabled)
+            }
         }
-
+        
         setNeedsDisplay()
     }
     
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        playBtn.isEnabled = false
     }
     
     @IBOutlet weak var playBtn: UIButton!

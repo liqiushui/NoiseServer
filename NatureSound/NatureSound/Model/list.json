@@ -14,7 +14,7 @@
             "normalIcon" : "fire@2x.png",
             "selectedIcon" : "",
             "sourceType" : 0,
-            "url" : "rain.aac",
+            "url" : "fire.aac",
             "name": "fire"
         }
     ]
