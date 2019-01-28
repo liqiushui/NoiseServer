@@ -56,6 +56,20 @@ class NSAudioPlayCenter: NSObject {
             player?.pause()
         }
     }
+    
+    public func changeVolume(key : String, volume: Float) {
+        
+        let keyExists = mDic[key] != nil
+        var player:AVAudioPlayer? = nil
+        
+        if keyExists {
+            player = mDic[key]
+        }
+        
+        if player != nil && player!.isPlaying {
+            player?.setVolume(volume, fadeDuration: 0.25)
+        }
+    }
 
     public func createAudioPlayer(url:URL, delegate:AVAudioPlayerDelegate) -> AVAudioPlayer? {
         

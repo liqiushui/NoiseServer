@@ -30,20 +30,31 @@
                         </constraints>
                         <state key="normal" title="Button"/>
                     </button>
+                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="hE8-rN-c4p" customClass="SoundSlider" customModule="NatureSound" customModuleProvider="target">
+                        <rect key="frame" x="18" y="80" width="328" height="31"/>
+                        <connections>
+                            <action selector="volumeChange:" destination="gTV-IL-0wX" eventType="valueChanged" id="N9J-A6-1Mg"/>
+                        </connections>
+                    </slider>
                 </subviews>
             </view>
             <constraints>
                 <constraint firstItem="tWt-1Q-aZ7" firstAttribute="centerX" secondItem="ZTg-uK-7eu" secondAttribute="centerX" id="5be-DV-y8p"/>
                 <constraint firstItem="sEK-Q2-H2k" firstAttribute="top" secondItem="tWt-1Q-aZ7" secondAttribute="top" constant="10" id="Bp4-7n-1wd"/>
+                <constraint firstItem="hE8-rN-c4p" firstAttribute="top" secondItem="sEK-Q2-H2k" secondAttribute="bottom" priority="750" constant="10" id="c2E-Jm-3HH"/>
                 <constraint firstItem="tWt-1Q-aZ7" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" id="gij-0i-EAb"/>
+                <constraint firstItem="hE8-rN-c4p" firstAttribute="bottom" relation="lessThanOrEqual" secondItem="tWt-1Q-aZ7" secondAttribute="bottom" constant="-10" id="v9E-nG-9w5"/>
                 <constraint firstItem="tWt-1Q-aZ7" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" id="wf7-1o-ZWt"/>
+                <constraint firstItem="hE8-rN-c4p" firstAttribute="width" secondItem="tWt-1Q-aZ7" secondAttribute="width" constant="-40" id="x68-wn-InR"/>
                 <constraint firstItem="tWt-1Q-aZ7" firstAttribute="centerY" secondItem="ZTg-uK-7eu" secondAttribute="centerY" id="xz5-v1-bSS"/>
                 <constraint firstItem="sEK-Q2-H2k" firstAttribute="centerX" secondItem="tWt-1Q-aZ7" secondAttribute="centerX" id="y7j-ND-b61"/>
+                <constraint firstItem="hE8-rN-c4p" firstAttribute="centerX" secondItem="tWt-1Q-aZ7" secondAttribute="centerX" id="zLO-RD-HOs"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <size key="customSize" width="364" height="200"/>
             <connections>
                 <outlet property="playBtn" destination="sEK-Q2-H2k" id="OjW-mR-hXS"/>
+                <outlet property="volumeSlider" destination="hE8-rN-c4p" id="OfK-gP-uJQ"/>
             </connections>
             <point key="canvasLocation" x="-112" y="123.23838080959521"/>
         </collectionViewCell>

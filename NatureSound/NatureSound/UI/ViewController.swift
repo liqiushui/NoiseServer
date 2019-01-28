@@ -22,6 +22,14 @@ class ViewController: UIViewController, UICollectionViewDataSource,  UICollectio
                          forCellWithReuseIdentifier: "SoundCollectionViewCell")
         
         setupLayout()
+        setupNotis()
+    }
+    
+    func setupNotis() {
+        
+        NotificationCenter.default.addObserver(self, selector:#selector(handleVolumeChange(_:)),
+                                               name: Noti.VolumeChangeNoti,
+                                               object: nil)
     }
     
     func setupLayout() {
@@ -77,7 +85,13 @@ class ViewController: UIViewController, UICollectionViewDataSource,  UICollectio
         else {
             NSAudioPlayCenter.shareCenter().stopPlayAudio(key: item.model.soundID!)
         }
+    }
+    
+    @objc func handleVolumeChange(_ noti: Notification) {
         
+        let volume = noti.userInfo!["volume"] as! Float
+        let key = noti.userInfo!["key"] as! String
+        NSAudioPlayCenter.shareCenter().changeVolume(key: key, volume: volume)
     }
 }
 

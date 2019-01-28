@@ -36,6 +36,8 @@ class SoundCollectionViewCell: UICollectionViewCell {
                 playBtn.setImage(img.tintedImageUsingColor(tintColor: UIColor.gray),
                                  for: UIControl.State.disabled)
             }
+            volumeSlider.isHidden = !m.selected
+            volumeSlider.setValue(m.volume, animated: true)
         }
         
         setNeedsDisplay()
@@ -47,6 +49,17 @@ class SoundCollectionViewCell: UICollectionViewCell {
         playBtn.isEnabled = false
     }
     
+    @IBAction func volumeChange(_ sender: UISlider) {
+        if let m = model {
+            
+            NotificationCenter.default.post(name: Noti.VolumeChangeNoti,
+                                            object: nil,
+                                            userInfo: ["key":m.model.soundID!, "volume": sender.value])
+            
+        }
+    }
+    
     @IBOutlet weak var playBtn: UIButton!
+    @IBOutlet weak var volumeSlider: UISlider!
     
 }
