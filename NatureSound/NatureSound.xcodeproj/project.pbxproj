@@ -20,6 +20,9 @@
 		B85F995F21FEF1530037BCFA /* SoundSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85F995E21FEF1530037BCFA /* SoundSlider.swift */; };
 		B85F996321FEF9B30037BCFA /* slider@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B85F996221FEF9B30037BCFA /* slider@2x.png */; };
 		B85F996621FEFBE70037BCFA /* Noti.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85F996521FEFBE70037BCFA /* Noti.swift */; };
+		B85F996821FF03220037BCFA /* NSObjectExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85F996721FF03220037BCFA /* NSObjectExt.swift */; };
+		B85F996A21FF25B90037BCFA /* UIViewAnimateBgColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85F996921FF25B90037BCFA /* UIViewAnimateBgColorExt.swift */; };
+		B85F996C21FF28EC0037BCFA /* UIColorEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85F996B21FF28EC0037BCFA /* UIColorEx.swift */; };
 		B89DBF5F21FADEF1005DB702 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89DBF5E21FADEF1005DB702 /* AppDelegate.swift */; };
 		B89DBF6121FADEF1005DB702 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89DBF6021FADEF1005DB702 /* ViewController.swift */; };
 		B89DBF6421FADEF1005DB702 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B89DBF6221FADEF1005DB702 /* Main.storyboard */; };
@@ -66,6 +69,9 @@
 		B85F995E21FEF1530037BCFA /* SoundSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundSlider.swift; sourceTree = "<group>"; };
 		B85F996221FEF9B30037BCFA /* slider@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "slider@2x.png"; path = "Document/slider@2x.png"; sourceTree = SOURCE_ROOT; };
 		B85F996521FEFBE70037BCFA /* Noti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Noti.swift; sourceTree = "<group>"; };
+		B85F996721FF03220037BCFA /* NSObjectExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectExt.swift; sourceTree = "<group>"; };
+		B85F996921FF25B90037BCFA /* UIViewAnimateBgColorExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewAnimateBgColorExt.swift; sourceTree = "<group>"; };
+		B85F996B21FF28EC0037BCFA /* UIColorEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorEx.swift; sourceTree = "<group>"; };
 		B89DBF5B21FADEF0005DB702 /* NatureSound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NatureSound.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B89DBF5E21FADEF1005DB702 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B89DBF6021FADEF1005DB702 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -144,6 +150,9 @@
 			isa = PBXGroup;
 			children = (
 				B85F995721FED5CC0037BCFA /* UIImageExtension.swift */,
+				B85F996721FF03220037BCFA /* NSObjectExt.swift */,
+				B85F996921FF25B90037BCFA /* UIViewAnimateBgColorExt.swift */,
+				B85F996B21FF28EC0037BCFA /* UIColorEx.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -413,6 +422,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B85F996C21FF28EC0037BCFA /* UIColorEx.swift in Sources */,
 				B85F996621FEFBE70037BCFA /* Noti.swift in Sources */,
 				B85F994C21FB1CA60037BCFA /* TestCenter.swift in Sources */,
 				B89DC03321FB0CED005DB702 /* SoundModelCenter.swift in Sources */,
@@ -420,8 +430,10 @@
 				B85F995321FEA5580037BCFA /* SoundViewModel.swift in Sources */,
 				B89DC02D21FB04E3005DB702 /* SoundCollectionViewCell.swift in Sources */,
 				B89DC03121FB08B0005DB702 /* SoundItem.swift in Sources */,
+				B85F996A21FF25B90037BCFA /* UIViewAnimateBgColorExt.swift in Sources */,
 				B85F995F21FEF1530037BCFA /* SoundSlider.swift in Sources */,
 				B89DBF5F21FADEF1005DB702 /* AppDelegate.swift in Sources */,
+				B85F996821FF03220037BCFA /* NSObjectExt.swift in Sources */,
 				B85F995821FED5CC0037BCFA /* UIImageExtension.swift in Sources */,
 				B85F995B21FED9660037BCFA /* NSAudioPlayCenter.swift in Sources */,
 			);

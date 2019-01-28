@@ -8,9 +8,12 @@
 
 import UIKit
 import AVFoundation
+import NSLogger
 
 class ViewController: UIViewController, UICollectionViewDataSource,  UICollectionViewDelegate, AVAudioPlayerDelegate{
     
+    //    
+
     @IBOutlet weak var colview: UICollectionView!
     
     public var model: SoundViewModel = SoundViewModel.init(models: SoundModelCenter.shareInstance().list)
@@ -20,9 +23,12 @@ class ViewController: UIViewController, UICollectionViewDataSource,  UICollectio
         
         colview.register(UINib(nibName: "SoundCollectionViewCell", bundle: nil),
                          forCellWithReuseIdentifier: "SoundCollectionViewCell")
+        colview.backgroundColor = UIColor.clear
         
         setupLayout()
         setupNotis()
+        
+        self.view.startRandomAnimation()
     }
     
     func setupNotis() {
@@ -79,7 +85,6 @@ class ViewController: UIViewController, UICollectionViewDataSource,  UICollectio
                                                               key: item.model.soundID!,
                                                               delegate: self)
                 }
-
             }
         }
         else {
@@ -92,6 +97,11 @@ class ViewController: UIViewController, UICollectionViewDataSource,  UICollectio
         let volume = noti.userInfo!["volume"] as! Float
         let key = noti.userInfo!["key"] as! String
         NSAudioPlayCenter.shareCenter().changeVolume(key: key, volume: volume)
+    }
+    
+    public func audioPlayerDidFinishPlaying(_ player: AVAudioPlayer, successfully flag: Bool)
+    {
+        Logger.shared.log(.model, .info, "player \(player.extDic["key"] ?? "unknown") did finish play")
     }
 }
 

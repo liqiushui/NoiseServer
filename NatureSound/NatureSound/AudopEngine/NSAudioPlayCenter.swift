@@ -37,6 +37,8 @@ class NSAudioPlayCenter: NSObject {
         
         if player != nil && !player!.isPlaying {
             configAudioSession()
+            player!.extDic["key"] = key
+            player!.numberOfLoops = Int(-1)
             player!.prepareToPlay()
             player!.play()
             mDic[key] = player
