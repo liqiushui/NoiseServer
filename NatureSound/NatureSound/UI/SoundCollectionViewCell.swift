@@ -51,7 +51,7 @@ class SoundCollectionViewCell: UICollectionViewCell {
     
     @IBAction func volumeChange(_ sender: UISlider) {
         if let m = model {
-            
+            m.volume = sender.value
             NotificationCenter.default.post(name: Noti.VolumeChangeNoti,
                                             object: nil,
                                             userInfo: ["key":m.model.soundID!, "volume": sender.value])
