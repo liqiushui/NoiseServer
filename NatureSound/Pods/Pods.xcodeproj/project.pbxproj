@@ -7,107 +7,190 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A8DA2CA152F16E172C7A6A5ACC0304E /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0D180041C01F8E155C882A6A592B87 /* ConstraintDSL.swift */; };
 		0FC290E048A3A6D4F108A67B1BFDEF0D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7064CE028126C7F537CE515F4B787F79 /* CFNetwork.framework */; };
-		11DDA1A6C6416D1FC96C17EBA5CD6658 /* FontIon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2541579A0DED304EE7EFDDC1EEA9A1 /* FontIon.swift */; };
-		1753F3CDCA51954A18BCC1BD8B6984BA /* FontOct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39341D1F3DF5B0BC835BDBF1730C643C /* FontOct.swift */; };
-		19DFFBDF978B521BC7758B9E7B76735C /* FontOpenic.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4679DE88162D4E177D8E8E0257A8D7 /* FontOpenic.swift */; };
-		2AF079848A9A487916263FDAC0BFED30 /* FontMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9179B0F717EF2377494B3E9CCC7386 /* FontMap.swift */; };
-		2DD5B9DE9627A835B5EAE553A66E6E8C /* LoggerClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 699CE1548CACFFBF3EA422BBEB86DB30 /* LoggerClient.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2FC9611CE675B3AE1B69E4C2A9A7FCAE /* Pods-NatureSound-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AFE745DA9F9CC3870EB318F916A4BF5D /* Pods-NatureSound-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		32B09AD6B4988F5CB53EB4BD878137EB /* FontThemify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4147788612D61C9C858369FB20773B4C /* FontThemify.swift */; };
-		362F80A5C640037718ED3B78ABE69606 /* LoggerClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E37F5101B63A7DE1BEBFD5554B84B40 /* LoggerClient.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		467AF1AB33AB03931F2B6607303D8A5A /* Pods-NatureSound-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74837D6D8EE52CEF0864577D5F558B1C /* Pods-NatureSound-dummy.m */; };
-		58C5A80B7F42030292FFDCBCA6A14EC1 /* FontMaterial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629620639E6983F0A27EECBEBFEE4AB9 /* FontMaterial.swift */; };
-		5E880214BC37429D370102008A72C325 /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86736590ADD38AD7A2F05B794EEE432 /* FontAwesome.swift */; };
-		5F8DDA0BC53F35684DAAD15060D23A05 /* NSLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BA8804CE93A2F6F73372F29E810D26 /* NSLogger.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		11DDA1A6C6416D1FC96C17EBA5CD6658 /* FontIon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536A894622EE6FA9CF78B94D61B5E7B3 /* FontIon.swift */; };
+		11E1EF7449DDF403375631B14A115117 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E44C5675FD24CA7023BC646E74F23E6 /* LayoutConstraint.swift */; };
+		1753F3CDCA51954A18BCC1BD8B6984BA /* FontOct.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EED7CE71E23B4689E2D05CDC22D50A /* FontOct.swift */; };
+		19DFFBDF978B521BC7758B9E7B76735C /* FontOpenic.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4745E5321AE290DD5A0B5CF58499AE8 /* FontOpenic.swift */; };
+		214B6684C87B3B27CE47A1AB3C8867CB /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788384679D9356650CA4A281B4022E25 /* ConstraintItem.swift */; };
+		246F8DD7E6C4E4B91BD4C973FF63DAB2 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF2DADCA57FACAFFC207745FCEAE934 /* ConstraintRelation.swift */; };
+		2A53E7769FF32643B975A3E6C923B2E0 /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084DB0357EE8F7CE75582D97EA65378F /* ConstraintInsets.swift */; };
+		2AF079848A9A487916263FDAC0BFED30 /* FontMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50D24632F1173D627498D441392746C /* FontMap.swift */; };
+		2B6C14A1F2F6A3A17ADB6D26D332DE69 /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D6FF25E9E687C16800511783F7E5AA /* ConstraintView.swift */; };
+		2DD5B9DE9627A835B5EAE553A66E6E8C /* LoggerClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B80F7B6A542FEE5D30A9C08DE053A93 /* LoggerClient.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2FD7B308FA9F273D2968AA9AACA5751E /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6BF16972FF995202B9BC316CA19F93 /* ConstraintMakerPriortizable.swift */; };
+		32B09AD6B4988F5CB53EB4BD878137EB /* FontThemify.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7585B00CAC428831297E6EFDB824525 /* FontThemify.swift */; };
+		33F96786905E7E824209B5584AA9D017 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC1F479EBFB6359A5797E86D506F22C /* ConstraintConstantTarget.swift */; };
+		362F80A5C640037718ED3B78ABE69606 /* LoggerClient.h in Headers */ = {isa = PBXBuildFile; fileRef = B0079BF20D5D817F759AB43D46E0D30C /* LoggerClient.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3834BF8A0C55B8B760405E59A06D3148 /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774ABD98D730C63CB6E82AF6BC35DD1E /* ConstraintLayoutSupport.swift */; };
+		4B8A8D3ED6EEF413185282E3BFB50ED0 /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08F028BF395F78276D06E38E30FFFEC /* UILayoutSupport+Extensions.swift */; };
+		51A4F820612B335FCBD87D0FF9F6280D /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150C4D99F31C85F940FF0D93B881BE54 /* ConstraintDescription.swift */; };
+		58C5A80B7F42030292FFDCBCA6A14EC1 /* FontMaterial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA2ECC7D33C4778802C80A8D4208E6A /* FontMaterial.swift */; };
+		5E880214BC37429D370102008A72C325 /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62148F266FE3A2ADE78E51347D277E7B /* FontAwesome.swift */; };
+		5F8DDA0BC53F35684DAAD15060D23A05 /* NSLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2873122A069E3560BB6309F74D275D4 /* NSLogger.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		61FFD9E757C8C14214555C92DAB568C7 /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB783A4A3BEBD8038AE35ACDC9C1FEC /* ConstraintPriorityTarget.swift */; };
+		64EED0A49D0B41A7DDBA9827B1B08F1E /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B6F0E5102652B3E914104D6879145C /* LayoutConstraintItem.swift */; };
+		6AD4BD61278CBAB32A300AE31A921058 /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8550984C38F153DDBC97DE58517199 /* ConstraintViewDSL.swift */; };
 		6D1FA0CD11D66D992531385E0AF4C686 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 877AD689F36CA0325CAF55EB146912E3 /* UIKit.framework */; };
-		70EE408B06D8F93D6166006377B70133 /* LGButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EBA4096C1AC46144CBA622A742A654B2 /* LGButton-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		75F682A81269B6A0A1D8BFE16309267A /* LoggerCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = B172A4B08239FA5835EA5CFBD38F7C39 /* LoggerCommon.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		90D025CADB8785BFF88369B5C396004C /* NSLoggerSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 63464C06D46E2059CE400244AC5C5546 /* NSLoggerSwift.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A53CCF9EA0049D3F3E74DCDBB7906FD1 /* SwiftIconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ED2729B33DE538EDEB0C7BBE9F1FE4 /* SwiftIconFont.swift */; };
-		B2D66E415498619AA326C14AA36B5BE8 /* LGButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E5D7F750695706C93A9FE861096DB3 /* LGButton.swift */; };
-		B8290102569E2A17AFC5EAE1ADF3A58F /* FontLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7DEB44ECECDDC310187072CD6AEEA5 /* FontLoader.swift */; };
-		C33CCFC178F78F22DEB5E994CE25EB8D /* SwiftIconLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCB25C98378EA09F0CD42A15F6ABB13 /* SwiftIconLabel.swift */; };
-		C5700C978CC14C355179B095E6E6B126 /* NSLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 674436683733DBC2E6B95E98308EA135 /* NSLogger-dummy.m */; };
-		DB8BBDCC494457EB8E953C83C924203D /* NSLogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 329186A4C5FC7A386501124205EE8434 /* NSLogger-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		70217FE7EB212A7104618567CC4BE359 /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0610499E31D5BA35C1E8B3DEF13BE2B /* ConstraintMakerRelatable.swift */; };
+		70EE408B06D8F93D6166006377B70133 /* LGButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E6A89F8997404CDA407E2C65D2F7F63 /* LGButton-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		75F682A81269B6A0A1D8BFE16309267A /* LoggerCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 941AB6685668D80827042FE2303B22AB /* LoggerCommon.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		875F4B2940B16E769FE7A3BCB8C3E290 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A8AD6E0876533BD78498B3F900A1A4 /* Constraint.swift */; };
+		89FEDE2A1523CD96126057AD79A9AAD1 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE5DE58D6FDCD67532E175874D2DAA7 /* Debugging.swift */; };
+		8ADF178849C0C033176B644DACA5B10D /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC93E70F139A0AB3F217D12FBCD139BE /* ConstraintOffsetTarget.swift */; };
+		8C30771A3ED0D053FCB2FFC46488D338 /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BA8767FCFC7881A065506C78FA849F /* ConstraintLayoutGuideDSL.swift */; };
+		8C97FD938189B2BF292948EBA3E57A5D /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B09C5FB5F39CBFA5CC487DC1FD74AED /* ConstraintInsetTarget.swift */; };
+		8E3CF82698C895F899E693FB27212DBB /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C014F23A74D5FA2733F0112DB8BC63C4 /* ConstraintView+Extensions.swift */; };
+		90D025CADB8785BFF88369B5C396004C /* NSLoggerSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EDAD6EF8C3A75D06AD59EBCA9D90AD7 /* NSLoggerSwift.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		999633FE23BFF7E726AC33F413561050 /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A62B0CFF6AD69E5B1D44A0EA378460 /* ConstraintMultiplierTarget.swift */; };
+		9E9F89525CC086AD39AD8AACE29CDE98 /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 945FE471E022428ED1955FEC6B7C3FE1 /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A53CCF9EA0049D3F3E74DCDBB7906FD1 /* SwiftIconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40283C79735430F4577D67501BB7976 /* SwiftIconFont.swift */; };
+		A563892C7B11F90CD00C6910F4CD967B /* Pods-NatureSound-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74837D6D8EE52CEF0864577D5F558B1C /* Pods-NatureSound-dummy.m */; };
+		A9781C922820E1989774236FC4B328D0 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1EA6B93633AD478274A5D7A9ECE185 /* ConstraintAttributes.swift */; };
+		AA240159D34B6E2DBFD2716A6CF7FBF4 /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178F1F1103AA54E11E52546BB4B59521 /* ConstraintRelatableTarget.swift */; };
+		B2D66E415498619AA326C14AA36B5BE8 /* LGButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977F1035B681ED6B30CB65221910FE60 /* LGButton.swift */; };
+		B5F86FEB7696143AEE3A3C2ED6DAD18E /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A02508E2AEF72D33CAFBA7E5A04787 /* ConstraintPriority.swift */; };
+		B8290102569E2A17AFC5EAE1ADF3A58F /* FontLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78ACE152A2110BD5532C0498802098D7 /* FontLoader.swift */; };
+		C1EDE56187E3AFA28BC5A4B749CEDF85 /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2400249CB79B67650F6DB4D8C44BA36 /* ConstraintMakerFinalizable.swift */; };
+		C33CCFC178F78F22DEB5E994CE25EB8D /* SwiftIconLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D5674A265F0CC2D6043A35D5325063 /* SwiftIconLabel.swift */; };
+		C5700C978CC14C355179B095E6E6B126 /* NSLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2634CA75EE6077B1FA5921B02CB04C4D /* NSLogger-dummy.m */; };
+		C629FDDBFA88623C0BA926230106B9C6 /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C5CE3FFFA489F0386773F7DA31E5A9 /* ConstraintLayoutSupportDSL.swift */; };
+		D752C1BEA1C69A3AF09D533DD14AE570 /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3097FA58DFF8B492963AF34F638428 /* Typealiases.swift */; };
+		DB8BBDCC494457EB8E953C83C924203D /* NSLogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E8811887EE9CFB9C75E6E06903F74BF /* NSLogger-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		DBA0FC528699A9BA0C07EEF2BD1239B4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D512F59808F317EBF0BE48DDB2ABA536 /* SystemConfiguration.framework */; };
-		E6A770B4197848FC287E8CB216C4623F /* NSLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 2239E0ADB171A4E5849E92D689458E15 /* NSLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FB5A633A1E87386D0E4FB4E2CA63AB01 /* LGButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5542CF5BD362BF30C8448A0B25D2E4E4 /* LGButton-dummy.m */; };
+		DC57EB0128B6116490F4CC22AAA4011B /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5E0506EBDB5F3FB4F3D3FA74EC920E /* ConstraintConfig.swift */; };
+		DCCF648C9FDF767B8F5350E6A01643EA /* Pods-NatureSound-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AFE745DA9F9CC3870EB318F916A4BF5D /* Pods-NatureSound-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DDEE94B046A6302DA19706AE960BEBBF /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5838C7514064CDD39A79B5F2290E98 /* ConstraintMakerExtendable.swift */; };
+		E42D001E563E3035E9A1E96E8048DAE2 /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904A6F78399CDD57B6E218AB5326E378 /* ConstraintMakerEditable.swift */; };
+		E6A770B4197848FC287E8CB216C4623F /* NSLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = A1377C8F853E29D2EB2E44CF53E8F8F9 /* NSLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E84E4B62C92200F92C69DE9D6FCDDFF0 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570544989A02C0C8A4EA67CBA098A2C1 /* ConstraintMaker.swift */; };
+		EB6CB102C93B3F8ED3112BE3CE97BFA6 /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0031BCECDA16111109D4E077826BB0D8 /* ConstraintLayoutGuide+Extensions.swift */; };
+		EE53D3B3A6009AC3397CB28F5112D5D9 /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F91F0A5EA229A2FBACCB0B8E01C225 /* SnapKit-dummy.m */; };
+		EF3FA5C64CBBCD0CFFDB8571B6B6D827 /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A3068CAB582BE7DA7B519BEA5FC7EF /* ConstraintLayoutGuide.swift */; };
+		FB5A633A1E87386D0E4FB4E2CA63AB01 /* LGButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC86CE2210B108A49E068F76042CEA42 /* LGButton-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6CB1A9409BC2813861BAC44F93FBD9F5 /* PBXContainerItemProxy */ = {
+		2ED5D72A3D399580AC7ADECFF145B64C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4E5BC88009D9F4B52227EB8AA71F2CF6;
-			remoteInfo = NSLogger;
+			remoteGlobalIDString = 42FE00009E2A1D447CBF7B26F3547901;
+			remoteInfo = SnapKit;
 		};
-		96401234104CC3C9E55571FD807A6A22 /* PBXContainerItemProxy */ = {
+		7E764AD8BB19702039377B1274A37FB2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 19B44164E9F071928B8E888AEFA93B7E;
 			remoteInfo = LGButton;
 		};
+		93DCAA01F80B30C0B14D079A1852018B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E5BC88009D9F4B52227EB8AA71F2CF6;
+			remoteInfo = NSLogger;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E92AD4A4165D7B82A9113627284610 /* themify.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = themify.ttf; path = LGButton/Resources/themify.ttf; sourceTree = "<group>"; };
+		0031BCECDA16111109D4E077826BB0D8 /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Source/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
 		02E6FF1AAB99F436DB052E80336B85ED /* Pods-NatureSound-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NatureSound-acknowledgements.plist"; sourceTree = "<group>"; };
-		0A2541579A0DED304EE7EFDDC1EEA9A1 /* FontIon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontIon.swift; path = LGButton/Classes/SwiftIconFont/FontIon.swift; sourceTree = "<group>"; };
+		064C305754021A1589657BB1C77348A2 /* libLGButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libLGButton.a; path = libLGButton.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		06A62B0CFF6AD69E5B1D44A0EA378460 /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Source/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
+		084DB0357EE8F7CE75582D97EA65378F /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Source/ConstraintInsets.swift; sourceTree = "<group>"; };
 		0A45C17FD40586812E12DC35E3A2EE63 /* Pods-NatureSound.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NatureSound.debug.xcconfig"; sourceTree = "<group>"; };
+		0B3097FA58DFF8B492963AF34F638428 /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Source/Typealiases.swift; sourceTree = "<group>"; };
+		0F97DF8D085829AD945810ECA67992D9 /* Ionicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = Ionicons.ttf; path = LGButton/Resources/Ionicons.ttf; sourceTree = "<group>"; };
+		150C4D99F31C85F940FF0D93B881BE54 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
+		15D5674A265F0CC2D6043A35D5325063 /* SwiftIconLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftIconLabel.swift; path = LGButton/Classes/SwiftIconFont/SwiftIconLabel.swift; sourceTree = "<group>"; };
+		178F1F1103AA54E11E52546BB4B59521 /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
 		18256CC8AA617771E304E35849674AFF /* Pods-NatureSound-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NatureSound-frameworks.sh"; sourceTree = "<group>"; };
-		2239E0ADB171A4E5849E92D689458E15 /* NSLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NSLogger.h; path = Client/iOS/NSLogger.h; sourceTree = "<group>"; };
-		2E37F5101B63A7DE1BEBFD5554B84B40 /* LoggerClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LoggerClient.h; path = Client/iOS/LoggerClient.h; sourceTree = "<group>"; };
+		1B09C5FB5F39CBFA5CC487DC1FD74AED /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Source/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
+		24EB0F05D61EED3ACBEC2EA974920D37 /* LGButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = LGButton.modulemap; path = ../../Headers/Public/LGButton/LGButton.modulemap; sourceTree = "<group>"; };
+		2634CA75EE6077B1FA5921B02CB04C4D /* NSLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSLogger-dummy.m"; sourceTree = "<group>"; };
+		2E6A89F8997404CDA407E2C65D2F7F63 /* LGButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LGButton-umbrella.h"; path = "../../Headers/Public/LGButton/LGButton-umbrella.h"; sourceTree = "<group>"; };
 		2ECBB2FC6B5703BC989393D3785E7415 /* Pods-NatureSound-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NatureSound-acknowledgements.markdown"; sourceTree = "<group>"; };
-		329186A4C5FC7A386501124205EE8434 /* NSLogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLogger-umbrella.h"; path = "../../Headers/Public/NSLogger/NSLogger-umbrella.h"; sourceTree = "<group>"; };
-		33ED2729B33DE538EDEB0C7BBE9F1FE4 /* SwiftIconFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftIconFont.swift; path = LGButton/Classes/SwiftIconFont/SwiftIconFont.swift; sourceTree = "<group>"; };
-		39341D1F3DF5B0BC835BDBF1730C643C /* FontOct.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontOct.swift; path = LGButton/Classes/SwiftIconFont/FontOct.swift; sourceTree = "<group>"; };
-		3C0A24478B75928F6FDC3622806E4B55 /* LGButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LGButton.xcconfig; sourceTree = "<group>"; };
-		4147788612D61C9C858369FB20773B4C /* FontThemify.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontThemify.swift; path = LGButton/Classes/SwiftIconFont/FontThemify.swift; sourceTree = "<group>"; };
+		38BA8767FCFC7881A065506C78FA849F /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Source/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
+		398F403CEA326E632DCC6EE6325BD8AB /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = SnapKit.modulemap; path = ../../Headers/Public/SnapKit/SnapKit.modulemap; sourceTree = "<group>"; };
+		3AC210A94EA68E85A7FB8BFFB837DA07 /* themify.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = themify.ttf; path = LGButton/Resources/themify.ttf; sourceTree = "<group>"; };
+		3B1EA6B93633AD478274A5D7A9ECE185 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
+		3BF2DADCA57FACAFFC207745FCEAE934 /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
+		3CE5DE58D6FDCD67532E175874D2DAA7 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
+		40F91F0A5EA229A2FBACCB0B8E01C225 /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
+		42132F2D3B0BA1B539CFD8E43988F4E9 /* MaterialIcons-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "MaterialIcons-Regular.ttf"; path = "LGButton/Resources/MaterialIcons-Regular.ttf"; sourceTree = "<group>"; };
 		47D9124FA19D8BF7FCB222B5485FB89C /* Pods-NatureSound-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NatureSound-resources.sh"; sourceTree = "<group>"; };
-		5542CF5BD362BF30C8448A0B25D2E4E4 /* LGButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LGButton-dummy.m"; sourceTree = "<group>"; };
-		5DEBCF07C5C3128CF29F215D40169E76 /* map-icons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "map-icons.ttf"; path = "LGButton/Resources/map-icons.ttf"; sourceTree = "<group>"; };
-		629620639E6983F0A27EECBEBFEE4AB9 /* FontMaterial.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontMaterial.swift; path = LGButton/Classes/SwiftIconFont/FontMaterial.swift; sourceTree = "<group>"; };
-		63464C06D46E2059CE400244AC5C5546 /* NSLoggerSwift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NSLoggerSwift.h; path = Client/iOS/NSLoggerSwift.h; sourceTree = "<group>"; };
-		64B1F7A894CD8370366214ABF049CB09 /* LGButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = LGButton.modulemap; path = ../../Headers/Public/LGButton/LGButton.modulemap; sourceTree = "<group>"; };
-		6679E6D3A09C104A0A60B9A65401BA71 /* MaterialIcons-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "MaterialIcons-Regular.ttf"; path = "LGButton/Resources/MaterialIcons-Regular.ttf"; sourceTree = "<group>"; };
-		674436683733DBC2E6B95E98308EA135 /* NSLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSLogger-dummy.m"; sourceTree = "<group>"; };
-		699CE1548CACFFBF3EA422BBEB86DB30 /* LoggerClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LoggerClient.m; path = Client/iOS/LoggerClient.m; sourceTree = "<group>"; };
-		6BCB25C98378EA09F0CD42A15F6ABB13 /* SwiftIconLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftIconLabel.swift; path = LGButton/Classes/SwiftIconFont/SwiftIconLabel.swift; sourceTree = "<group>"; };
+		4EDAD6EF8C3A75D06AD59EBCA9D90AD7 /* NSLoggerSwift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NSLoggerSwift.h; path = Client/iOS/NSLoggerSwift.h; sourceTree = "<group>"; };
+		4F5838C7514064CDD39A79B5F2290E98 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Source/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
+		52C5CE3FFFA489F0386773F7DA31E5A9 /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Source/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
+		536A894622EE6FA9CF78B94D61B5E7B3 /* FontIon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontIon.swift; path = LGButton/Classes/SwiftIconFont/FontIon.swift; sourceTree = "<group>"; };
+		570544989A02C0C8A4EA67CBA098A2C1 /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
+		62148F266FE3A2ADE78E51347D277E7B /* FontAwesome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesome.swift; path = LGButton/Classes/SwiftIconFont/FontAwesome.swift; sourceTree = "<group>"; };
+		630B34069F233A495BA324A3E3B7942E /* LGButton.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = LGButton.xib; path = LGButton/Resources/LGButton.xib; sourceTree = "<group>"; };
+		6B6BF16972FF995202B9BC316CA19F93 /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPriortizable.swift; path = Source/ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
+		6E8811887EE9CFB9C75E6E06903F74BF /* NSLogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLogger-umbrella.h"; path = "../../Headers/Public/NSLogger/NSLogger-umbrella.h"; sourceTree = "<group>"; };
 		7064CE028126C7F537CE515F4B787F79 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		74837D6D8EE52CEF0864577D5F558B1C /* Pods-NatureSound-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NatureSound-dummy.m"; sourceTree = "<group>"; };
-		75785BAFE5ED9DA542A827470F41DF55 /* Ionicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = Ionicons.ttf; path = LGButton/Resources/Ionicons.ttf; sourceTree = "<group>"; };
-		8162E984F39F95C640598701CC6D7A53 /* NSLogger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NSLogger.xcconfig; sourceTree = "<group>"; };
-		862EA4CA49AD7E2447E13E62CDF78604 /* octicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = octicons.ttf; path = LGButton/Resources/octicons.ttf; sourceTree = "<group>"; };
+		774ABD98D730C63CB6E82AF6BC35DD1E /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
+		788384679D9356650CA4A281B4022E25 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
+		78ACE152A2110BD5532C0498802098D7 /* FontLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontLoader.swift; path = LGButton/Classes/SwiftIconFont/FontLoader.swift; sourceTree = "<group>"; };
+		7CA2ECC7D33C4778802C80A8D4208E6A /* FontMaterial.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontMaterial.swift; path = LGButton/Classes/SwiftIconFont/FontMaterial.swift; sourceTree = "<group>"; };
 		877AD689F36CA0325CAF55EB146912E3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		87837036C954FC4927DC7EA197EDA4F7 /* octicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = octicons.ttf; path = LGButton/Resources/octicons.ttf; sourceTree = "<group>"; };
+		8AD1A777A3E1AC4FFD682460B7BCC3AC /* NSLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSLogger-prefix.pch"; sourceTree = "<group>"; };
+		8B80F7B6A542FEE5D30A9C08DE053A93 /* LoggerClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LoggerClient.m; path = Client/iOS/LoggerClient.m; sourceTree = "<group>"; };
+		904A6F78399CDD57B6E218AB5326E378 /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Source/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
+		92D6FF25E9E687C16800511783F7E5AA /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Source/ConstraintView.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		96E5D7F750695706C93A9FE861096DB3 /* LGButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LGButton.swift; path = LGButton/Classes/LGButton.swift; sourceTree = "<group>"; };
-		9D6CF69F26F8F5C99A619B1371EFAEAE /* NSLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSLogger-prefix.pch"; sourceTree = "<group>"; };
-		AB7D6E4027A9B5EA9C97FAA163E1FC4F /* open-iconic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "open-iconic.ttf"; path = "LGButton/Resources/open-iconic.ttf"; sourceTree = "<group>"; };
+		941AB6685668D80827042FE2303B22AB /* LoggerCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LoggerCommon.h; path = Client/iOS/LoggerCommon.h; sourceTree = "<group>"; };
+		945FE471E022428ED1955FEC6B7C3FE1 /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SnapKit-umbrella.h"; path = "../../Headers/Public/SnapKit/SnapKit-umbrella.h"; sourceTree = "<group>"; };
+		977F1035B681ED6B30CB65221910FE60 /* LGButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LGButton.swift; path = LGButton/Classes/LGButton.swift; sourceTree = "<group>"; };
+		9950D3EBE9800B410DBEB967174FA0F3 /* NSLogger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NSLogger.xcconfig; sourceTree = "<group>"; };
+		99A8AD6E0876533BD78498B3F900A1A4 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
+		9BB783A4A3BEBD8038AE35ACDC9C1FEC /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
+		9E44C5675FD24CA7023BC646E74F23E6 /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
+		A02F46B04D2E1A32AC99C3C65B532B82 /* LGButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LGButton.xcconfig; sourceTree = "<group>"; };
+		A08F028BF395F78276D06E38E30FFFEC /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Source/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
+		A1377C8F853E29D2EB2E44CF53E8F8F9 /* NSLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NSLogger.h; path = Client/iOS/NSLogger.h; sourceTree = "<group>"; };
+		A4745E5321AE290DD5A0B5CF58499AE8 /* FontOpenic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontOpenic.swift; path = LGButton/Classes/SwiftIconFont/FontOpenic.swift; sourceTree = "<group>"; };
+		A50D24632F1173D627498D441392746C /* FontMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontMap.swift; path = LGButton/Classes/SwiftIconFont/FontMap.swift; sourceTree = "<group>"; };
+		A5EED7CE71E23B4689E2D05CDC22D50A /* FontOct.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontOct.swift; path = LGButton/Classes/SwiftIconFont/FontOct.swift; sourceTree = "<group>"; };
+		AC93E70F139A0AB3F217D12FBCD139BE /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Source/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
+		AF5E0506EBDB5F3FB4F3D3FA74EC920E /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Source/ConstraintConfig.swift; sourceTree = "<group>"; };
 		AFE745DA9F9CC3870EB318F916A4BF5D /* Pods-NatureSound-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NatureSound-umbrella.h"; sourceTree = "<group>"; };
-		B172A4B08239FA5835EA5CFBD38F7C39 /* LoggerCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LoggerCommon.h; path = Client/iOS/LoggerCommon.h; sourceTree = "<group>"; };
+		B0079BF20D5D817F759AB43D46E0D30C /* LoggerClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LoggerClient.h; path = Client/iOS/LoggerClient.h; sourceTree = "<group>"; };
+		B17E38658B685FE98BCFDDEEEEDDE56A /* libSnapKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSnapKit.a; path = libSnapKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1A3068CAB582BE7DA7B519BEA5FC7EF /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Source/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
 		B213F7E0334A5E67B6D3143C324B0C06 /* Pods-NatureSound.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NatureSound.release.xcconfig"; sourceTree = "<group>"; };
-		BF7DEB44ECECDDC310187072CD6AEEA5 /* FontLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontLoader.swift; path = LGButton/Classes/SwiftIconFont/FontLoader.swift; sourceTree = "<group>"; };
-		C14105D3DB427B220899F2FE477E1FA7 /* libPods-NatureSound.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-NatureSound.a"; path = "libPods-NatureSound.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB4679DE88162D4E177D8E8E0257A8D7 /* FontOpenic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontOpenic.swift; path = LGButton/Classes/SwiftIconFont/FontOpenic.swift; sourceTree = "<group>"; };
-		CF22A4180A5A69309FE406A9B7E3A723 /* libNSLogger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libNSLogger.a; path = libNSLogger.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		D280F8CE1B209A0BF71318104847E2A0 /* libLGButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libLGButton.a; path = libLGButton.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2873122A069E3560BB6309F74D275D4 /* NSLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSLogger.swift; path = Client/iOS/NSLogger.swift; sourceTree = "<group>"; };
+		BC8550984C38F153DDBC97DE58517199 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
+		C014F23A74D5FA2733F0112DB8BC63C4 /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
+		C0610499E31D5BA35C1E8B3DEF13BE2B /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Source/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
+		C157A2DB3D7E841D6A319EEC472C67D4 /* libPods-NatureSound.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-NatureSound.a"; path = "libPods-NatureSound.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5DC41C18562A907C9B288F4A88F5542 /* libNSLogger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libNSLogger.a; path = libNSLogger.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7585B00CAC428831297E6EFDB824525 /* FontThemify.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontThemify.swift; path = LGButton/Classes/SwiftIconFont/FontThemify.swift; sourceTree = "<group>"; };
+		CA1CD2900760F995670A92CE0243E10B /* NSLogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = NSLogger.modulemap; path = ../../Headers/Public/NSLogger/NSLogger.modulemap; sourceTree = "<group>"; };
+		CC86CE2210B108A49E068F76042CEA42 /* LGButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LGButton-dummy.m"; sourceTree = "<group>"; };
+		CF187F8BE9AC78E72928BCA48077C665 /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
+		D2AB67B67C29CCE5415F7BA0087E33A4 /* map-icons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "map-icons.ttf"; path = "LGButton/Resources/map-icons.ttf"; sourceTree = "<group>"; };
 		D512F59808F317EBF0BE48DDB2ABA536 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		DA22E04376FC5E89CEA16F9EE32FBEFC /* LGButton.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = LGButton.xib; path = LGButton/Resources/LGButton.xib; sourceTree = "<group>"; };
-		DE965B4F72CBD63FE3CC66871863A068 /* NSLogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = NSLogger.modulemap; path = ../../Headers/Public/NSLogger/NSLogger.modulemap; sourceTree = "<group>"; };
-		E86736590ADD38AD7A2F05B794EEE432 /* FontAwesome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesome.swift; path = LGButton/Classes/SwiftIconFont/FontAwesome.swift; sourceTree = "<group>"; };
-		EB157629E876406B0F0CCA1A9B42650A /* FontAwesome.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = FontAwesome.ttf; path = LGButton/Resources/FontAwesome.ttf; sourceTree = "<group>"; };
-		EBA4096C1AC46144CBA622A742A654B2 /* LGButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LGButton-umbrella.h"; path = "../../Headers/Public/LGButton/LGButton-umbrella.h"; sourceTree = "<group>"; };
-		EE9179B0F717EF2377494B3E9CCC7386 /* FontMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontMap.swift; path = LGButton/Classes/SwiftIconFont/FontMap.swift; sourceTree = "<group>"; };
-		F0C62EC0A200931D0F975B391B7FA858 /* LGButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGButton-prefix.pch"; sourceTree = "<group>"; };
-		F4BA8804CE93A2F6F73372F29E810D26 /* NSLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSLogger.swift; path = Client/iOS/NSLogger.swift; sourceTree = "<group>"; };
+		D7B6F0E5102652B3E914104D6879145C /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Source/LayoutConstraintItem.swift; sourceTree = "<group>"; };
+		DDC530E95D5F2403ECDF5134605D5562 /* LGButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGButton-prefix.pch"; sourceTree = "<group>"; };
+		E19B3B7BA428252350BCA0483B45D4CC /* SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.xcconfig; sourceTree = "<group>"; };
+		E2400249CB79B67650F6DB4D8C44BA36 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Source/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
+		E4A02508E2AEF72D33CAFBA7E5A04787 /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Source/ConstraintPriority.swift; sourceTree = "<group>"; };
+		E527C575C61C4D7EA25B84F28FC9517C /* FontAwesome.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = FontAwesome.ttf; path = LGButton/Resources/FontAwesome.ttf; sourceTree = "<group>"; };
+		EC0D180041C01F8E155C882A6A592B87 /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Source/ConstraintDSL.swift; sourceTree = "<group>"; };
+		EFF79211E0EFFFC803887EE27F116AE1 /* open-iconic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "open-iconic.ttf"; path = "LGButton/Resources/open-iconic.ttf"; sourceTree = "<group>"; };
+		F40283C79735430F4577D67501BB7976 /* SwiftIconFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftIconFont.swift; path = LGButton/Classes/SwiftIconFont/SwiftIconFont.swift; sourceTree = "<group>"; };
+		FCC1F479EBFB6359A5797E86D506F22C /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Source/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
 		FD479D8FBC728B6008651664FB496219 /* Pods-NatureSound.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NatureSound.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8C83EE9E6EF6C5E8F409AA88B233F4CB /* Frameworks */ = {
+		841333DBDBC77C3D23D043AEB2E13012 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,6 +198,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C38A3F04AF53E1095D695A515CDA609B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF663A1CDFEB6D91E8DB992530835EAB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -134,29 +224,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0DC5F2731AC01AE30C1EDEA6B8B7684F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D280F8CE1B209A0BF71318104847E2A0 /* libLGButton.a */,
-				CF22A4180A5A69309FE406A9B7E3A723 /* libNSLogger.a */,
-				C14105D3DB427B220899F2FE477E1FA7 /* libPods-NatureSound.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		0E66FF6FA6720A5B0326299709D9BBBC /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DE965B4F72CBD63FE3CC66871863A068 /* NSLogger.modulemap */,
-				8162E984F39F95C640598701CC6D7A53 /* NSLogger.xcconfig */,
-				674436683733DBC2E6B95E98308EA135 /* NSLogger-dummy.m */,
-				9D6CF69F26F8F5C99A619B1371EFAEAE /* NSLogger-prefix.pch */,
-				329186A4C5FC7A386501124205EE8434 /* NSLogger-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/NSLogger";
-			sourceTree = "<group>";
-		};
 		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -192,27 +259,74 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		480F88DAFCF1034DA9CC1F97FFF55398 /* ObjC */ = {
+		1E6BD96BF06FF6BEB18BE17F14BCF36D /* SnapKit */ = {
 			isa = PBXGroup;
 			children = (
-				2E37F5101B63A7DE1BEBFD5554B84B40 /* LoggerClient.h */,
-				699CE1548CACFFBF3EA422BBEB86DB30 /* LoggerClient.m */,
-				B172A4B08239FA5835EA5CFBD38F7C39 /* LoggerCommon.h */,
-				2239E0ADB171A4E5849E92D689458E15 /* NSLogger.h */,
-				63464C06D46E2059CE400244AC5C5546 /* NSLoggerSwift.h */,
+				99A8AD6E0876533BD78498B3F900A1A4 /* Constraint.swift */,
+				3B1EA6B93633AD478274A5D7A9ECE185 /* ConstraintAttributes.swift */,
+				AF5E0506EBDB5F3FB4F3D3FA74EC920E /* ConstraintConfig.swift */,
+				FCC1F479EBFB6359A5797E86D506F22C /* ConstraintConstantTarget.swift */,
+				150C4D99F31C85F940FF0D93B881BE54 /* ConstraintDescription.swift */,
+				EC0D180041C01F8E155C882A6A592B87 /* ConstraintDSL.swift */,
+				084DB0357EE8F7CE75582D97EA65378F /* ConstraintInsets.swift */,
+				1B09C5FB5F39CBFA5CC487DC1FD74AED /* ConstraintInsetTarget.swift */,
+				788384679D9356650CA4A281B4022E25 /* ConstraintItem.swift */,
+				B1A3068CAB582BE7DA7B519BEA5FC7EF /* ConstraintLayoutGuide.swift */,
+				0031BCECDA16111109D4E077826BB0D8 /* ConstraintLayoutGuide+Extensions.swift */,
+				38BA8767FCFC7881A065506C78FA849F /* ConstraintLayoutGuideDSL.swift */,
+				774ABD98D730C63CB6E82AF6BC35DD1E /* ConstraintLayoutSupport.swift */,
+				52C5CE3FFFA489F0386773F7DA31E5A9 /* ConstraintLayoutSupportDSL.swift */,
+				570544989A02C0C8A4EA67CBA098A2C1 /* ConstraintMaker.swift */,
+				904A6F78399CDD57B6E218AB5326E378 /* ConstraintMakerEditable.swift */,
+				4F5838C7514064CDD39A79B5F2290E98 /* ConstraintMakerExtendable.swift */,
+				E2400249CB79B67650F6DB4D8C44BA36 /* ConstraintMakerFinalizable.swift */,
+				6B6BF16972FF995202B9BC316CA19F93 /* ConstraintMakerPriortizable.swift */,
+				C0610499E31D5BA35C1E8B3DEF13BE2B /* ConstraintMakerRelatable.swift */,
+				06A62B0CFF6AD69E5B1D44A0EA378460 /* ConstraintMultiplierTarget.swift */,
+				AC93E70F139A0AB3F217D12FBCD139BE /* ConstraintOffsetTarget.swift */,
+				E4A02508E2AEF72D33CAFBA7E5A04787 /* ConstraintPriority.swift */,
+				9BB783A4A3BEBD8038AE35ACDC9C1FEC /* ConstraintPriorityTarget.swift */,
+				178F1F1103AA54E11E52546BB4B59521 /* ConstraintRelatableTarget.swift */,
+				3BF2DADCA57FACAFFC207745FCEAE934 /* ConstraintRelation.swift */,
+				92D6FF25E9E687C16800511783F7E5AA /* ConstraintView.swift */,
+				C014F23A74D5FA2733F0112DB8BC63C4 /* ConstraintView+Extensions.swift */,
+				BC8550984C38F153DDBC97DE58517199 /* ConstraintViewDSL.swift */,
+				3CE5DE58D6FDCD67532E175874D2DAA7 /* Debugging.swift */,
+				9E44C5675FD24CA7023BC646E74F23E6 /* LayoutConstraint.swift */,
+				D7B6F0E5102652B3E914104D6879145C /* LayoutConstraintItem.swift */,
+				0B3097FA58DFF8B492963AF34F638428 /* Typealiases.swift */,
+				A08F028BF395F78276D06E38E30FFFEC /* UILayoutSupport+Extensions.swift */,
+				B51FE744C0B0E9017167E7C827A2F04C /* Support Files */,
 			);
-			name = ObjC;
+			name = SnapKit;
+			path = SnapKit;
 			sourceTree = "<group>";
 		};
-		4970356A0495ECC75A97E76F618FE383 /* NSLogger */ = {
+		2FD797ADCBDFF7562DBC3B3A4228806A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				480F88DAFCF1034DA9CC1F97FFF55398 /* ObjC */,
-				0E66FF6FA6720A5B0326299709D9BBBC /* Support Files */,
-				5E2BC1909FFCE6AE0D3DDC7DB7B047FD /* Swift */,
+				E527C575C61C4D7EA25B84F28FC9517C /* FontAwesome.ttf */,
+				0F97DF8D085829AD945810ECA67992D9 /* Ionicons.ttf */,
+				630B34069F233A495BA324A3E3B7942E /* LGButton.xib */,
+				D2AB67B67C29CCE5415F7BA0087E33A4 /* map-icons.ttf */,
+				42132F2D3B0BA1B539CFD8E43988F4E9 /* MaterialIcons-Regular.ttf */,
+				87837036C954FC4927DC7EA197EDA4F7 /* octicons.ttf */,
+				EFF79211E0EFFFC803887EE27F116AE1 /* open-iconic.ttf */,
+				3AC210A94EA68E85A7FB8BFFB837DA07 /* themify.ttf */,
 			);
-			name = NSLogger;
-			path = NSLogger;
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		44BCBC88E2232D9116DECB5210451AC7 /* ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				B0079BF20D5D817F759AB43D46E0D30C /* LoggerClient.h */,
+				8B80F7B6A542FEE5D30A9C08DE053A93 /* LoggerClient.m */,
+				941AB6685668D80827042FE2303B22AB /* LoggerCommon.h */,
+				A1377C8F853E29D2EB2E44CF53E8F8F9 /* NSLogger.h */,
+				4EDAD6EF8C3A75D06AD59EBCA9D90AD7 /* NSLoggerSwift.h */,
+			);
+			name = ObjC;
 			sourceTree = "<group>";
 		};
 		5697CAFB64296508AFA1A9304D20778F /* Targets Support Files */ = {
@@ -223,25 +337,28 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		5E2BC1909FFCE6AE0D3DDC7DB7B047FD /* Swift */ = {
+		5C3E31F2FBA6FE4D199EFA3EEBBB47FE /* NSLogger */ = {
 			isa = PBXGroup;
 			children = (
-				F4BA8804CE93A2F6F73372F29E810D26 /* NSLogger.swift */,
+				44BCBC88E2232D9116DECB5210451AC7 /* ObjC */,
+				680CFA19569D83D5F75BAACB7DBBDFAC /* Support Files */,
+				84E539000788758B38FE198436503183 /* Swift */,
 			);
-			name = Swift;
+			name = NSLogger;
+			path = NSLogger;
 			sourceTree = "<group>";
 		};
-		663AD606A17DA074DD2EEB55DA58B845 /* Support Files */ = {
+		680CFA19569D83D5F75BAACB7DBBDFAC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				64B1F7A894CD8370366214ABF049CB09 /* LGButton.modulemap */,
-				3C0A24478B75928F6FDC3622806E4B55 /* LGButton.xcconfig */,
-				5542CF5BD362BF30C8448A0B25D2E4E4 /* LGButton-dummy.m */,
-				F0C62EC0A200931D0F975B391B7FA858 /* LGButton-prefix.pch */,
-				EBA4096C1AC46144CBA622A742A654B2 /* LGButton-umbrella.h */,
+				CA1CD2900760F995670A92CE0243E10B /* NSLogger.modulemap */,
+				9950D3EBE9800B410DBEB967174FA0F3 /* NSLogger.xcconfig */,
+				2634CA75EE6077B1FA5921B02CB04C4D /* NSLogger-dummy.m */,
+				8AD1A777A3E1AC4FFD682460B7BCC3AC /* NSLogger-prefix.pch */,
+				6E8811887EE9CFB9C75E6E06903F74BF /* NSLogger-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/LGButton";
+			path = "../Target Support Files/NSLogger";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -249,53 +366,84 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
-				C95696C6024A047DF4AD860B394B2604 /* Pods */,
-				0DC5F2731AC01AE30C1EDEA6B8B7684F /* Products */,
+				C5F4370726E3A78BBD5557C413E980D6 /* Pods */,
+				A4E2B035E38E1B237F742E002B7630A1 /* Products */,
 				5697CAFB64296508AFA1A9304D20778F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		91CDCA314351CA7A656C28657F8DDD82 /* LGButton */ = {
+		84E539000788758B38FE198436503183 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
-				E86736590ADD38AD7A2F05B794EEE432 /* FontAwesome.swift */,
-				0A2541579A0DED304EE7EFDDC1EEA9A1 /* FontIon.swift */,
-				BF7DEB44ECECDDC310187072CD6AEEA5 /* FontLoader.swift */,
-				EE9179B0F717EF2377494B3E9CCC7386 /* FontMap.swift */,
-				629620639E6983F0A27EECBEBFEE4AB9 /* FontMaterial.swift */,
-				39341D1F3DF5B0BC835BDBF1730C643C /* FontOct.swift */,
-				CB4679DE88162D4E177D8E8E0257A8D7 /* FontOpenic.swift */,
-				4147788612D61C9C858369FB20773B4C /* FontThemify.swift */,
-				96E5D7F750695706C93A9FE861096DB3 /* LGButton.swift */,
-				33ED2729B33DE538EDEB0C7BBE9F1FE4 /* SwiftIconFont.swift */,
-				6BCB25C98378EA09F0CD42A15F6ABB13 /* SwiftIconLabel.swift */,
-				B8E66E265ADB2E0933803C57A4B6C5B2 /* Resources */,
-				663AD606A17DA074DD2EEB55DA58B845 /* Support Files */,
+				B2873122A069E3560BB6309F74D275D4 /* NSLogger.swift */,
+			);
+			name = Swift;
+			sourceTree = "<group>";
+		};
+		8FA3A0D8A633C8BB6FDB7AFAF383C3F4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				24EB0F05D61EED3ACBEC2EA974920D37 /* LGButton.modulemap */,
+				A02F46B04D2E1A32AC99C3C65B532B82 /* LGButton.xcconfig */,
+				CC86CE2210B108A49E068F76042CEA42 /* LGButton-dummy.m */,
+				DDC530E95D5F2403ECDF5134605D5562 /* LGButton-prefix.pch */,
+				2E6A89F8997404CDA407E2C65D2F7F63 /* LGButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LGButton";
+			sourceTree = "<group>";
+		};
+		9C7A2D23C048AA46598E1BA72505A613 /* LGButton */ = {
+			isa = PBXGroup;
+			children = (
+				62148F266FE3A2ADE78E51347D277E7B /* FontAwesome.swift */,
+				536A894622EE6FA9CF78B94D61B5E7B3 /* FontIon.swift */,
+				78ACE152A2110BD5532C0498802098D7 /* FontLoader.swift */,
+				A50D24632F1173D627498D441392746C /* FontMap.swift */,
+				7CA2ECC7D33C4778802C80A8D4208E6A /* FontMaterial.swift */,
+				A5EED7CE71E23B4689E2D05CDC22D50A /* FontOct.swift */,
+				A4745E5321AE290DD5A0B5CF58499AE8 /* FontOpenic.swift */,
+				C7585B00CAC428831297E6EFDB824525 /* FontThemify.swift */,
+				977F1035B681ED6B30CB65221910FE60 /* LGButton.swift */,
+				F40283C79735430F4577D67501BB7976 /* SwiftIconFont.swift */,
+				15D5674A265F0CC2D6043A35D5325063 /* SwiftIconLabel.swift */,
+				2FD797ADCBDFF7562DBC3B3A4228806A /* Resources */,
+				8FA3A0D8A633C8BB6FDB7AFAF383C3F4 /* Support Files */,
 			);
 			name = LGButton;
 			path = LGButton;
 			sourceTree = "<group>";
 		};
-		B8E66E265ADB2E0933803C57A4B6C5B2 /* Resources */ = {
+		A4E2B035E38E1B237F742E002B7630A1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EB157629E876406B0F0CCA1A9B42650A /* FontAwesome.ttf */,
-				75785BAFE5ED9DA542A827470F41DF55 /* Ionicons.ttf */,
-				DA22E04376FC5E89CEA16F9EE32FBEFC /* LGButton.xib */,
-				5DEBCF07C5C3128CF29F215D40169E76 /* map-icons.ttf */,
-				6679E6D3A09C104A0A60B9A65401BA71 /* MaterialIcons-Regular.ttf */,
-				862EA4CA49AD7E2447E13E62CDF78604 /* octicons.ttf */,
-				AB7D6E4027A9B5EA9C97FAA163E1FC4F /* open-iconic.ttf */,
-				00E92AD4A4165D7B82A9113627284610 /* themify.ttf */,
+				064C305754021A1589657BB1C77348A2 /* libLGButton.a */,
+				C5DC41C18562A907C9B288F4A88F5542 /* libNSLogger.a */,
+				C157A2DB3D7E841D6A319EEC472C67D4 /* libPods-NatureSound.a */,
+				B17E38658B685FE98BCFDDEEEEDDE56A /* libSnapKit.a */,
 			);
-			name = Resources;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		C95696C6024A047DF4AD860B394B2604 /* Pods */ = {
+		B51FE744C0B0E9017167E7C827A2F04C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				91CDCA314351CA7A656C28657F8DDD82 /* LGButton */,
-				4970356A0495ECC75A97E76F618FE383 /* NSLogger */,
+				398F403CEA326E632DCC6EE6325BD8AB /* SnapKit.modulemap */,
+				E19B3B7BA428252350BCA0483B45D4CC /* SnapKit.xcconfig */,
+				40F91F0A5EA229A2FBACCB0B8E01C225 /* SnapKit-dummy.m */,
+				CF187F8BE9AC78E72928BCA48077C665 /* SnapKit-prefix.pch */,
+				945FE471E022428ED1955FEC6B7C3FE1 /* SnapKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SnapKit";
+			sourceTree = "<group>";
+		};
+		C5F4370726E3A78BBD5557C413E980D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C7A2D23C048AA46598E1BA72505A613 /* LGButton */,
+				5C3E31F2FBA6FE4D199EFA3EEBBB47FE /* NSLogger */,
+				1E6BD96BF06FF6BEB18BE17F14BCF36D /* SnapKit */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -303,11 +451,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		9FDA13D6AF2EC4284593322ABDDD0571 /* Headers */ = {
+		2F1B8B7C2DDB409CF6E9662D96EFD7DD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FC9611CE675B3AE1B69E4C2A9A7FCAE /* Pods-NatureSound-umbrella.h in Headers */,
+				9E9F89525CC086AD39AD8AACE29CDE98 /* SnapKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,28 +479,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FBAD4C8A64C2A3581C21A3AC62A01C3C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCCF648C9FDF767B8F5350E6A01643EA /* Pods-NatureSound-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		15911A7CB09EB7C48E562661911C8F1C /* Pods-NatureSound */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6541C68F4CA9076ED92EDA87B06D7FF3 /* Build configuration list for PBXNativeTarget "Pods-NatureSound" */;
-			buildPhases = (
-				6ED1C87F3E401B104C08624DB5F89457 /* Sources */,
-				8C83EE9E6EF6C5E8F409AA88B233F4CB /* Frameworks */,
-				9FDA13D6AF2EC4284593322ABDDD0571 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5AB2078866089A0DB57050EDDCD7D0F6 /* PBXTargetDependency */,
-				9DD8D14EDEBDA7E3544937C667D3CE50 /* PBXTargetDependency */,
-			);
-			name = "Pods-NatureSound";
-			productName = "Pods-NatureSound";
-			productReference = C14105D3DB427B220899F2FE477E1FA7 /* libPods-NatureSound.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 		19B44164E9F071928B8E888AEFA93B7E /* LGButton */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E7CEF85F57EC4120489A2DAF55D114E5 /* Build configuration list for PBXNativeTarget "LGButton" */;
@@ -368,7 +505,25 @@
 			);
 			name = LGButton;
 			productName = LGButton;
-			productReference = D280F8CE1B209A0BF71318104847E2A0 /* libLGButton.a */;
+			productReference = 064C305754021A1589657BB1C77348A2 /* libLGButton.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		42FE00009E2A1D447CBF7B26F3547901 /* SnapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5CA91577C7E3314E0B57DD3F5BE325B /* Build configuration list for PBXNativeTarget "SnapKit" */;
+			buildPhases = (
+				E067123C32E31F42E3DEA575525AF2BC /* Sources */,
+				DF663A1CDFEB6D91E8DB992530835EAB /* Frameworks */,
+				2F1B8B7C2DDB409CF6E9662D96EFD7DD /* Headers */,
+				B5FA583255B1D3C44F13F0D23CBDB5A0 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapKit;
+			productName = SnapKit;
+			productReference = B17E38658B685FE98BCFDDEEEEDDE56A /* libSnapKit.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		4E5BC88009D9F4B52227EB8AA71F2CF6 /* NSLogger */ = {
@@ -386,7 +541,27 @@
 			);
 			name = NSLogger;
 			productName = NSLogger;
-			productReference = CF22A4180A5A69309FE406A9B7E3A723 /* libNSLogger.a */;
+			productReference = C5DC41C18562A907C9B288F4A88F5542 /* libNSLogger.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		594554D1133B6950E03D5266AAACCF8C /* Pods-NatureSound */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE03714CA3C335F7C5A4B77457F24E51 /* Build configuration list for PBXNativeTarget "Pods-NatureSound" */;
+			buildPhases = (
+				B3D80C39C908DE12F63AF0008EFBC618 /* Sources */,
+				841333DBDBC77C3D23D043AEB2E13012 /* Frameworks */,
+				FBAD4C8A64C2A3581C21A3AC62A01C3C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB860F38DAED0C791B6A1E1422ADCC87 /* PBXTargetDependency */,
+				651419796891D44E7BA0D666A48F975D /* PBXTargetDependency */,
+				7CC81238703ACA9BEBBAD7CF505DB14C /* PBXTargetDependency */,
+			);
+			name = "Pods-NatureSound";
+			productName = "Pods-NatureSound";
+			productReference = C157A2DB3D7E841D6A319EEC472C67D4 /* libPods-NatureSound.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -406,13 +581,14 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 0DC5F2731AC01AE30C1EDEA6B8B7684F /* Products */;
+			productRefGroup = A4E2B035E38E1B237F742E002B7630A1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				19B44164E9F071928B8E888AEFA93B7E /* LGButton */,
 				4E5BC88009D9F4B52227EB8AA71F2CF6 /* NSLogger */,
-				15911A7CB09EB7C48E562661911C8F1C /* Pods-NatureSound */,
+				594554D1133B6950E03D5266AAACCF8C /* Pods-NatureSound */,
+				42FE00009E2A1D447CBF7B26F3547901 /* SnapKit */,
 			);
 		};
 /* End PBXProject section */
@@ -460,6 +636,27 @@
 			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/NSLogger/NSLogger.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/NSLogger/NSLogger-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
 			showEnvVarsInLog = 1;
 		};
+		B5FA583255B1D3C44F13F0D23CBDB5A0 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/SnapKit/SnapKit.modulemap",
+				"${PODS_ROOT}/Headers/Public/SnapKit/SnapKit-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/SnapKit-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SnapKit/SnapKit.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SnapKit/SnapKit-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+			showEnvVarsInLog = 1;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -482,11 +679,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6ED1C87F3E401B104C08624DB5F89457 /* Sources */ = {
+		B3D80C39C908DE12F63AF0008EFBC618 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				467AF1AB33AB03931F2B6607303D8A5A /* Pods-NatureSound-dummy.m in Sources */,
+				A563892C7B11F90CD00C6910F4CD967B /* Pods-NatureSound-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,20 +697,68 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E067123C32E31F42E3DEA575525AF2BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				875F4B2940B16E769FE7A3BCB8C3E290 /* Constraint.swift in Sources */,
+				A9781C922820E1989774236FC4B328D0 /* ConstraintAttributes.swift in Sources */,
+				DC57EB0128B6116490F4CC22AAA4011B /* ConstraintConfig.swift in Sources */,
+				33F96786905E7E824209B5584AA9D017 /* ConstraintConstantTarget.swift in Sources */,
+				51A4F820612B335FCBD87D0FF9F6280D /* ConstraintDescription.swift in Sources */,
+				0A8DA2CA152F16E172C7A6A5ACC0304E /* ConstraintDSL.swift in Sources */,
+				2A53E7769FF32643B975A3E6C923B2E0 /* ConstraintInsets.swift in Sources */,
+				8C97FD938189B2BF292948EBA3E57A5D /* ConstraintInsetTarget.swift in Sources */,
+				214B6684C87B3B27CE47A1AB3C8867CB /* ConstraintItem.swift in Sources */,
+				EB6CB102C93B3F8ED3112BE3CE97BFA6 /* ConstraintLayoutGuide+Extensions.swift in Sources */,
+				EF3FA5C64CBBCD0CFFDB8571B6B6D827 /* ConstraintLayoutGuide.swift in Sources */,
+				8C30771A3ED0D053FCB2FFC46488D338 /* ConstraintLayoutGuideDSL.swift in Sources */,
+				3834BF8A0C55B8B760405E59A06D3148 /* ConstraintLayoutSupport.swift in Sources */,
+				C629FDDBFA88623C0BA926230106B9C6 /* ConstraintLayoutSupportDSL.swift in Sources */,
+				E84E4B62C92200F92C69DE9D6FCDDFF0 /* ConstraintMaker.swift in Sources */,
+				E42D001E563E3035E9A1E96E8048DAE2 /* ConstraintMakerEditable.swift in Sources */,
+				DDEE94B046A6302DA19706AE960BEBBF /* ConstraintMakerExtendable.swift in Sources */,
+				C1EDE56187E3AFA28BC5A4B749CEDF85 /* ConstraintMakerFinalizable.swift in Sources */,
+				2FD7B308FA9F273D2968AA9AACA5751E /* ConstraintMakerPriortizable.swift in Sources */,
+				70217FE7EB212A7104618567CC4BE359 /* ConstraintMakerRelatable.swift in Sources */,
+				999633FE23BFF7E726AC33F413561050 /* ConstraintMultiplierTarget.swift in Sources */,
+				8ADF178849C0C033176B644DACA5B10D /* ConstraintOffsetTarget.swift in Sources */,
+				B5F86FEB7696143AEE3A3C2ED6DAD18E /* ConstraintPriority.swift in Sources */,
+				61FFD9E757C8C14214555C92DAB568C7 /* ConstraintPriorityTarget.swift in Sources */,
+				AA240159D34B6E2DBFD2716A6CF7FBF4 /* ConstraintRelatableTarget.swift in Sources */,
+				246F8DD7E6C4E4B91BD4C973FF63DAB2 /* ConstraintRelation.swift in Sources */,
+				8E3CF82698C895F899E693FB27212DBB /* ConstraintView+Extensions.swift in Sources */,
+				2B6C14A1F2F6A3A17ADB6D26D332DE69 /* ConstraintView.swift in Sources */,
+				6AD4BD61278CBAB32A300AE31A921058 /* ConstraintViewDSL.swift in Sources */,
+				89FEDE2A1523CD96126057AD79A9AAD1 /* Debugging.swift in Sources */,
+				11E1EF7449DDF403375631B14A115117 /* LayoutConstraint.swift in Sources */,
+				64EED0A49D0B41A7DDBA9827B1B08F1E /* LayoutConstraintItem.swift in Sources */,
+				EE53D3B3A6009AC3397CB28F5112D5D9 /* SnapKit-dummy.m in Sources */,
+				D752C1BEA1C69A3AF09D533DD14AE570 /* Typealiases.swift in Sources */,
+				4B8A8D3ED6EEF413185282E3BFB50ED0 /* UILayoutSupport+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5AB2078866089A0DB57050EDDCD7D0F6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = LGButton;
-			target = 19B44164E9F071928B8E888AEFA93B7E /* LGButton */;
-			targetProxy = 96401234104CC3C9E55571FD807A6A22 /* PBXContainerItemProxy */;
-		};
-		9DD8D14EDEBDA7E3544937C667D3CE50 /* PBXTargetDependency */ = {
+		651419796891D44E7BA0D666A48F975D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = NSLogger;
 			target = 4E5BC88009D9F4B52227EB8AA71F2CF6 /* NSLogger */;
-			targetProxy = 6CB1A9409BC2813861BAC44F93FBD9F5 /* PBXContainerItemProxy */;
+			targetProxy = 93DCAA01F80B30C0B14D079A1852018B /* PBXContainerItemProxy */;
+		};
+		7CC81238703ACA9BEBBAD7CF505DB14C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = 42FE00009E2A1D447CBF7B26F3547901 /* SnapKit */;
+			targetProxy = 2ED5D72A3D399580AC7ADECFF145B64C /* PBXContainerItemProxy */;
+		};
+		AB860F38DAED0C791B6A1E1422ADCC87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LGButton;
+			target = 19B44164E9F071928B8E888AEFA93B7E /* LGButton */;
+			targetProxy = 7E764AD8BB19702039377B1274A37FB2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -576,7 +821,7 @@
 			};
 			name = Release;
 		};
-		2011532EDCE07FCCCCD7EF5F2DE712BC /* Release */ = {
+		23BD42F57248651D7A797252F4C4B69E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B213F7E0334A5E67B6D3143C324B0C06 /* Pods-NatureSound.release.xcconfig */;
 			buildSettings = {
@@ -601,9 +846,34 @@
 			};
 			name = Release;
 		};
+		73BF0DD0185305F8CE4E0884D1A99534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A45C17FD40586812E12DC35E3A2EE63 /* Pods-NatureSound.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NatureSound/Pods-NatureSound.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		88A1C5513D988CC816C5A3E18ED819EA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8162E984F39F95C640598701CC6D7A53 /* NSLogger.xcconfig */;
+			baseConfigurationReference = 9950D3EBE9800B410DBEB967174FA0F3 /* NSLogger.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -692,7 +962,7 @@
 		};
 		A32D2B6A4E5F2B4727C125BFEBCBC67D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8162E984F39F95C640598701CC6D7A53 /* NSLogger.xcconfig */;
+			baseConfigurationReference = 9950D3EBE9800B410DBEB967174FA0F3 /* NSLogger.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -717,34 +987,35 @@
 			};
 			name = Release;
 		};
-		BB3E444555AF229DEE8A1A74B65B0CF6 /* Debug */ = {
+		C21F985B3541E7225D1693DD01E77C81 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A45C17FD40586812E12DC35E3A2EE63 /* Pods-NatureSound.debug.xcconfig */;
+			baseConfigurationReference = E19B3B7BA428252350BCA0483B45D4CC /* SnapKit.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NatureSound/Pods-NatureSound.modulemap";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/SnapKit/SnapKit.modulemap;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		E85B8A2DEFB516C07AFB5B9E74FF9AF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C0A24478B75928F6FDC3622806E4B55 /* LGButton.xcconfig */;
+			baseConfigurationReference = A02F46B04D2E1A32AC99C3C65B532B82 /* LGButton.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -770,7 +1041,7 @@
 		};
 		F47955CEBA68EA6BD764511F38E5E8F8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C0A24478B75928F6FDC3622806E4B55 /* LGButton.xcconfig */;
+			baseConfigurationReference = A02F46B04D2E1A32AC99C3C65B532B82 /* LGButton.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -790,6 +1061,33 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FABC1632EF94E536FB21AA4C5EA646EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E19B3B7BA428252350BCA0483B45D4CC /* SnapKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/SnapKit/SnapKit.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -816,11 +1114,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6541C68F4CA9076ED92EDA87B06D7FF3 /* Build configuration list for PBXNativeTarget "Pods-NatureSound" */ = {
+		A5CA91577C7E3314E0B57DD3F5BE325B /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BB3E444555AF229DEE8A1A74B65B0CF6 /* Debug */,
-				2011532EDCE07FCCCCD7EF5F2DE712BC /* Release */,
+				C21F985B3541E7225D1693DD01E77C81 /* Debug */,
+				FABC1632EF94E536FB21AA4C5EA646EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -830,6 +1128,15 @@
 			buildConfigurations = (
 				E85B8A2DEFB516C07AFB5B9E74FF9AF9 /* Debug */,
 				F47955CEBA68EA6BD764511F38E5E8F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE03714CA3C335F7C5A4B77457F24E51 /* Build configuration list for PBXNativeTarget "Pods-NatureSound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73BF0DD0185305F8CE4E0884D1A99534 /* Debug */,
+				23BD42F57248651D7A797252F4C4B69E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

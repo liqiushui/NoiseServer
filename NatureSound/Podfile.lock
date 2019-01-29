@@ -3,20 +3,24 @@ PODS:
   - NSLogger/ObjC (1.9.7)
   - NSLogger/Swift (1.9.7):
     - NSLogger/ObjC
+  - SnapKit (4.0.1)
 
 DEPENDENCIES:
   - LGButton
   - NSLogger/Swift
+  - SnapKit (~> 4.0.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - LGButton
     - NSLogger
+    - SnapKit
 
 SPEC CHECKSUMS:
   LGButton: 0e07c243d1655b507502c3b9271d3c3a7c22dcaa
   NSLogger: cf3013a4fba189f631f07e6c3d5b8ce2b209654b
+  SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
 
-PODFILE CHECKSUM: 19b60f6a4f5ae62e8eb32963f1c30ba99e3ca507
+PODFILE CHECKSUM: d7cfbba03bb128b6ae7d52cb79c734562cc24848
 
 COCOAPODS: 1.5.3

@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "594554D1133B6950E03D5266AAACCF8C"
-               BlueprintName = "Pods-NatureSound"
+               BlueprintIdentifier = "42FE00009E2A1D447CBF7B26F3547901"
+               BlueprintName = "SnapKit"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libPods-NatureSound.a">
+               BuildableName = "libSnapKit.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
