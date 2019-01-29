@@ -91,6 +91,26 @@ EOM
       ;;
   esac
 }
+if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_resource "${PODS_ROOT}/LGButton/LGButton/Resources/FontAwesome.ttf"
+  install_resource "${PODS_ROOT}/LGButton/LGButton/Resources/Ionicons.ttf"
+  install_resource "${PODS_ROOT}/LGButton/LGButton/Resources/LGButton.xib"
+  install_resource "${PODS_ROOT}/LGButton/LGButton/Resources/map-icons.ttf"
+  install_resource "${PODS_ROOT}/LGButton/LGButton/Resources/MaterialIcons-Regular.ttf"
+  install_resource "${PODS_ROOT}/LGButton/LGButton/Resources/octicons.ttf"
+  install_resource "${PODS_ROOT}/LGButton/LGButton/Resources/open-iconic.ttf"
+  install_resource "${PODS_ROOT}/LGButton/LGButton/Resources/themify.ttf"
+fi
+if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_resource "${PODS_ROOT}/LGButton/LGButton/Resources/FontAwesome.ttf"
+  install_resource "${PODS_ROOT}/LGButton/LGButton/Resources/Ionicons.ttf"
+  install_resource "${PODS_ROOT}/LGButton/LGButton/Resources/LGButton.xib"
+  install_resource "${PODS_ROOT}/LGButton/LGButton/Resources/map-icons.ttf"
+  install_resource "${PODS_ROOT}/LGButton/LGButton/Resources/MaterialIcons-Regular.ttf"
+  install_resource "${PODS_ROOT}/LGButton/LGButton/Resources/octicons.ttf"
+  install_resource "${PODS_ROOT}/LGButton/LGButton/Resources/open-iconic.ttf"
+  install_resource "${PODS_ROOT}/LGButton/LGButton/Resources/themify.ttf"
+fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
 rsync -avr --copy-links --no-relative --exclude '*/.svn/*' --files-from="$RESOURCES_TO_COPY" / "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

@@ -8,61 +8,113 @@
 
 /* Begin PBXBuildFile section */
 		0FC290E048A3A6D4F108A67B1BFDEF0D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7064CE028126C7F537CE515F4B787F79 /* CFNetwork.framework */; };
-		2DD5B9DE9627A835B5EAE553A66E6E8C /* LoggerClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C171C3F77DA987AD68B83217F150DF2 /* LoggerClient.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		362F80A5C640037718ED3B78ABE69606 /* LoggerClient.h in Headers */ = {isa = PBXBuildFile; fileRef = AB5C3811FA03DD936D3D7EE71F702D10 /* LoggerClient.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4FFABB8F82BE07B7AE1CC5D7E8B1523D /* Pods-NatureSound-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74837D6D8EE52CEF0864577D5F558B1C /* Pods-NatureSound-dummy.m */; };
-		5F28AFEDB71939331C1F87B78772B1BA /* Pods-NatureSound-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AFE745DA9F9CC3870EB318F916A4BF5D /* Pods-NatureSound-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5F8DDA0BC53F35684DAAD15060D23A05 /* NSLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBDE0EE5B3440530ED48825A936ED26 /* NSLogger.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		11DDA1A6C6416D1FC96C17EBA5CD6658 /* FontIon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2541579A0DED304EE7EFDDC1EEA9A1 /* FontIon.swift */; };
+		1753F3CDCA51954A18BCC1BD8B6984BA /* FontOct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39341D1F3DF5B0BC835BDBF1730C643C /* FontOct.swift */; };
+		19DFFBDF978B521BC7758B9E7B76735C /* FontOpenic.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4679DE88162D4E177D8E8E0257A8D7 /* FontOpenic.swift */; };
+		2AF079848A9A487916263FDAC0BFED30 /* FontMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9179B0F717EF2377494B3E9CCC7386 /* FontMap.swift */; };
+		2DD5B9DE9627A835B5EAE553A66E6E8C /* LoggerClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 699CE1548CACFFBF3EA422BBEB86DB30 /* LoggerClient.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2FC9611CE675B3AE1B69E4C2A9A7FCAE /* Pods-NatureSound-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AFE745DA9F9CC3870EB318F916A4BF5D /* Pods-NatureSound-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		32B09AD6B4988F5CB53EB4BD878137EB /* FontThemify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4147788612D61C9C858369FB20773B4C /* FontThemify.swift */; };
+		362F80A5C640037718ED3B78ABE69606 /* LoggerClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E37F5101B63A7DE1BEBFD5554B84B40 /* LoggerClient.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		467AF1AB33AB03931F2B6607303D8A5A /* Pods-NatureSound-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74837D6D8EE52CEF0864577D5F558B1C /* Pods-NatureSound-dummy.m */; };
+		58C5A80B7F42030292FFDCBCA6A14EC1 /* FontMaterial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629620639E6983F0A27EECBEBFEE4AB9 /* FontMaterial.swift */; };
+		5E880214BC37429D370102008A72C325 /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86736590ADD38AD7A2F05B794EEE432 /* FontAwesome.swift */; };
+		5F8DDA0BC53F35684DAAD15060D23A05 /* NSLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BA8804CE93A2F6F73372F29E810D26 /* NSLogger.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		6D1FA0CD11D66D992531385E0AF4C686 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 877AD689F36CA0325CAF55EB146912E3 /* UIKit.framework */; };
-		75F682A81269B6A0A1D8BFE16309267A /* LoggerCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ECE610E58A0B08A33B9FFF6E8AE6C38 /* LoggerCommon.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		90D025CADB8785BFF88369B5C396004C /* NSLoggerSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = F05603712604B56BB8E7BDC3CDC504D8 /* NSLoggerSwift.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C5700C978CC14C355179B095E6E6B126 /* NSLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E98A2087E1D70D52E701B0FB64919D /* NSLogger-dummy.m */; };
-		DB8BBDCC494457EB8E953C83C924203D /* NSLogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 224C6C2FDECF6AE68F13D80EA23C66CA /* NSLogger-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		70EE408B06D8F93D6166006377B70133 /* LGButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EBA4096C1AC46144CBA622A742A654B2 /* LGButton-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		75F682A81269B6A0A1D8BFE16309267A /* LoggerCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = B172A4B08239FA5835EA5CFBD38F7C39 /* LoggerCommon.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		90D025CADB8785BFF88369B5C396004C /* NSLoggerSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 63464C06D46E2059CE400244AC5C5546 /* NSLoggerSwift.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A53CCF9EA0049D3F3E74DCDBB7906FD1 /* SwiftIconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ED2729B33DE538EDEB0C7BBE9F1FE4 /* SwiftIconFont.swift */; };
+		B2D66E415498619AA326C14AA36B5BE8 /* LGButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E5D7F750695706C93A9FE861096DB3 /* LGButton.swift */; };
+		B8290102569E2A17AFC5EAE1ADF3A58F /* FontLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7DEB44ECECDDC310187072CD6AEEA5 /* FontLoader.swift */; };
+		C33CCFC178F78F22DEB5E994CE25EB8D /* SwiftIconLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCB25C98378EA09F0CD42A15F6ABB13 /* SwiftIconLabel.swift */; };
+		C5700C978CC14C355179B095E6E6B126 /* NSLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 674436683733DBC2E6B95E98308EA135 /* NSLogger-dummy.m */; };
+		DB8BBDCC494457EB8E953C83C924203D /* NSLogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 329186A4C5FC7A386501124205EE8434 /* NSLogger-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		DBA0FC528699A9BA0C07EEF2BD1239B4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D512F59808F317EBF0BE48DDB2ABA536 /* SystemConfiguration.framework */; };
-		E6A770B4197848FC287E8CB216C4623F /* NSLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = D48F426BACE036D8929A31675C72CCB1 /* NSLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E6A770B4197848FC287E8CB216C4623F /* NSLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 2239E0ADB171A4E5849E92D689458E15 /* NSLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FB5A633A1E87386D0E4FB4E2CA63AB01 /* LGButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5542CF5BD362BF30C8448A0B25D2E4E4 /* LGButton-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E197574D57B7C24A6B19A38A9D26BFE1 /* PBXContainerItemProxy */ = {
+		6CB1A9409BC2813861BAC44F93FBD9F5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4E5BC88009D9F4B52227EB8AA71F2CF6;
 			remoteInfo = NSLogger;
 		};
+		96401234104CC3C9E55571FD807A6A22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19B44164E9F071928B8E888AEFA93B7E;
+			remoteInfo = LGButton;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00E92AD4A4165D7B82A9113627284610 /* themify.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = themify.ttf; path = LGButton/Resources/themify.ttf; sourceTree = "<group>"; };
 		02E6FF1AAB99F436DB052E80336B85ED /* Pods-NatureSound-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NatureSound-acknowledgements.plist"; sourceTree = "<group>"; };
+		0A2541579A0DED304EE7EFDDC1EEA9A1 /* FontIon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontIon.swift; path = LGButton/Classes/SwiftIconFont/FontIon.swift; sourceTree = "<group>"; };
 		0A45C17FD40586812E12DC35E3A2EE63 /* Pods-NatureSound.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NatureSound.debug.xcconfig"; sourceTree = "<group>"; };
-		0F1718FCD07B7397E735D356526910D7 /* libPods-NatureSound.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-NatureSound.a"; path = "libPods-NatureSound.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18256CC8AA617771E304E35849674AFF /* Pods-NatureSound-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NatureSound-frameworks.sh"; sourceTree = "<group>"; };
-		1ECE610E58A0B08A33B9FFF6E8AE6C38 /* LoggerCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LoggerCommon.h; path = Client/iOS/LoggerCommon.h; sourceTree = "<group>"; };
-		224C6C2FDECF6AE68F13D80EA23C66CA /* NSLogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLogger-umbrella.h"; path = "../../Headers/Public/NSLogger/NSLogger-umbrella.h"; sourceTree = "<group>"; };
-		2BBDE0EE5B3440530ED48825A936ED26 /* NSLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSLogger.swift; path = Client/iOS/NSLogger.swift; sourceTree = "<group>"; };
-		2C171C3F77DA987AD68B83217F150DF2 /* LoggerClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LoggerClient.m; path = Client/iOS/LoggerClient.m; sourceTree = "<group>"; };
+		2239E0ADB171A4E5849E92D689458E15 /* NSLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NSLogger.h; path = Client/iOS/NSLogger.h; sourceTree = "<group>"; };
+		2E37F5101B63A7DE1BEBFD5554B84B40 /* LoggerClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LoggerClient.h; path = Client/iOS/LoggerClient.h; sourceTree = "<group>"; };
 		2ECBB2FC6B5703BC989393D3785E7415 /* Pods-NatureSound-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NatureSound-acknowledgements.markdown"; sourceTree = "<group>"; };
-		45E98A2087E1D70D52E701B0FB64919D /* NSLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSLogger-dummy.m"; sourceTree = "<group>"; };
+		329186A4C5FC7A386501124205EE8434 /* NSLogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLogger-umbrella.h"; path = "../../Headers/Public/NSLogger/NSLogger-umbrella.h"; sourceTree = "<group>"; };
+		33ED2729B33DE538EDEB0C7BBE9F1FE4 /* SwiftIconFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftIconFont.swift; path = LGButton/Classes/SwiftIconFont/SwiftIconFont.swift; sourceTree = "<group>"; };
+		39341D1F3DF5B0BC835BDBF1730C643C /* FontOct.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontOct.swift; path = LGButton/Classes/SwiftIconFont/FontOct.swift; sourceTree = "<group>"; };
+		3C0A24478B75928F6FDC3622806E4B55 /* LGButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LGButton.xcconfig; sourceTree = "<group>"; };
+		4147788612D61C9C858369FB20773B4C /* FontThemify.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontThemify.swift; path = LGButton/Classes/SwiftIconFont/FontThemify.swift; sourceTree = "<group>"; };
 		47D9124FA19D8BF7FCB222B5485FB89C /* Pods-NatureSound-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NatureSound-resources.sh"; sourceTree = "<group>"; };
+		5542CF5BD362BF30C8448A0B25D2E4E4 /* LGButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LGButton-dummy.m"; sourceTree = "<group>"; };
+		5DEBCF07C5C3128CF29F215D40169E76 /* map-icons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "map-icons.ttf"; path = "LGButton/Resources/map-icons.ttf"; sourceTree = "<group>"; };
+		629620639E6983F0A27EECBEBFEE4AB9 /* FontMaterial.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontMaterial.swift; path = LGButton/Classes/SwiftIconFont/FontMaterial.swift; sourceTree = "<group>"; };
+		63464C06D46E2059CE400244AC5C5546 /* NSLoggerSwift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NSLoggerSwift.h; path = Client/iOS/NSLoggerSwift.h; sourceTree = "<group>"; };
+		64B1F7A894CD8370366214ABF049CB09 /* LGButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = LGButton.modulemap; path = ../../Headers/Public/LGButton/LGButton.modulemap; sourceTree = "<group>"; };
+		6679E6D3A09C104A0A60B9A65401BA71 /* MaterialIcons-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "MaterialIcons-Regular.ttf"; path = "LGButton/Resources/MaterialIcons-Regular.ttf"; sourceTree = "<group>"; };
+		674436683733DBC2E6B95E98308EA135 /* NSLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSLogger-dummy.m"; sourceTree = "<group>"; };
+		699CE1548CACFFBF3EA422BBEB86DB30 /* LoggerClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LoggerClient.m; path = Client/iOS/LoggerClient.m; sourceTree = "<group>"; };
+		6BCB25C98378EA09F0CD42A15F6ABB13 /* SwiftIconLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftIconLabel.swift; path = LGButton/Classes/SwiftIconFont/SwiftIconLabel.swift; sourceTree = "<group>"; };
 		7064CE028126C7F537CE515F4B787F79 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		74837D6D8EE52CEF0864577D5F558B1C /* Pods-NatureSound-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NatureSound-dummy.m"; sourceTree = "<group>"; };
-		7F5D6E68CE7A46BFA85754119860CD9C /* libNSLogger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libNSLogger.a; path = libNSLogger.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		75785BAFE5ED9DA542A827470F41DF55 /* Ionicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = Ionicons.ttf; path = LGButton/Resources/Ionicons.ttf; sourceTree = "<group>"; };
+		8162E984F39F95C640598701CC6D7A53 /* NSLogger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NSLogger.xcconfig; sourceTree = "<group>"; };
+		862EA4CA49AD7E2447E13E62CDF78604 /* octicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = octicons.ttf; path = LGButton/Resources/octicons.ttf; sourceTree = "<group>"; };
 		877AD689F36CA0325CAF55EB146912E3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AB5C3811FA03DD936D3D7EE71F702D10 /* LoggerClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LoggerClient.h; path = Client/iOS/LoggerClient.h; sourceTree = "<group>"; };
-		AE901EA0771208FECE6FC579CFE8C05C /* NSLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSLogger-prefix.pch"; sourceTree = "<group>"; };
+		96E5D7F750695706C93A9FE861096DB3 /* LGButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LGButton.swift; path = LGButton/Classes/LGButton.swift; sourceTree = "<group>"; };
+		9D6CF69F26F8F5C99A619B1371EFAEAE /* NSLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSLogger-prefix.pch"; sourceTree = "<group>"; };
+		AB7D6E4027A9B5EA9C97FAA163E1FC4F /* open-iconic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "open-iconic.ttf"; path = "LGButton/Resources/open-iconic.ttf"; sourceTree = "<group>"; };
 		AFE745DA9F9CC3870EB318F916A4BF5D /* Pods-NatureSound-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NatureSound-umbrella.h"; sourceTree = "<group>"; };
+		B172A4B08239FA5835EA5CFBD38F7C39 /* LoggerCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LoggerCommon.h; path = Client/iOS/LoggerCommon.h; sourceTree = "<group>"; };
 		B213F7E0334A5E67B6D3143C324B0C06 /* Pods-NatureSound.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NatureSound.release.xcconfig"; sourceTree = "<group>"; };
-		C7F98B3FDE2C90972AFF43F87AC58832 /* NSLogger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NSLogger.xcconfig; sourceTree = "<group>"; };
-		D48F426BACE036D8929A31675C72CCB1 /* NSLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NSLogger.h; path = Client/iOS/NSLogger.h; sourceTree = "<group>"; };
+		BF7DEB44ECECDDC310187072CD6AEEA5 /* FontLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontLoader.swift; path = LGButton/Classes/SwiftIconFont/FontLoader.swift; sourceTree = "<group>"; };
+		C14105D3DB427B220899F2FE477E1FA7 /* libPods-NatureSound.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-NatureSound.a"; path = "libPods-NatureSound.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB4679DE88162D4E177D8E8E0257A8D7 /* FontOpenic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontOpenic.swift; path = LGButton/Classes/SwiftIconFont/FontOpenic.swift; sourceTree = "<group>"; };
+		CF22A4180A5A69309FE406A9B7E3A723 /* libNSLogger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libNSLogger.a; path = libNSLogger.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D280F8CE1B209A0BF71318104847E2A0 /* libLGButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libLGButton.a; path = libLGButton.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D512F59808F317EBF0BE48DDB2ABA536 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		F05603712604B56BB8E7BDC3CDC504D8 /* NSLoggerSwift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NSLoggerSwift.h; path = Client/iOS/NSLoggerSwift.h; sourceTree = "<group>"; };
+		DA22E04376FC5E89CEA16F9EE32FBEFC /* LGButton.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = LGButton.xib; path = LGButton/Resources/LGButton.xib; sourceTree = "<group>"; };
+		DE965B4F72CBD63FE3CC66871863A068 /* NSLogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = NSLogger.modulemap; path = ../../Headers/Public/NSLogger/NSLogger.modulemap; sourceTree = "<group>"; };
+		E86736590ADD38AD7A2F05B794EEE432 /* FontAwesome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesome.swift; path = LGButton/Classes/SwiftIconFont/FontAwesome.swift; sourceTree = "<group>"; };
+		EB157629E876406B0F0CCA1A9B42650A /* FontAwesome.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = FontAwesome.ttf; path = LGButton/Resources/FontAwesome.ttf; sourceTree = "<group>"; };
+		EBA4096C1AC46144CBA622A742A654B2 /* LGButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LGButton-umbrella.h"; path = "../../Headers/Public/LGButton/LGButton-umbrella.h"; sourceTree = "<group>"; };
+		EE9179B0F717EF2377494B3E9CCC7386 /* FontMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontMap.swift; path = LGButton/Classes/SwiftIconFont/FontMap.swift; sourceTree = "<group>"; };
+		F0C62EC0A200931D0F975B391B7FA858 /* LGButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGButton-prefix.pch"; sourceTree = "<group>"; };
+		F4BA8804CE93A2F6F73372F29E810D26 /* NSLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSLogger.swift; path = Client/iOS/NSLogger.swift; sourceTree = "<group>"; };
 		FD479D8FBC728B6008651664FB496219 /* Pods-NatureSound.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NatureSound.modulemap"; sourceTree = "<group>"; };
-		FEB1C1ABDDF78A54C9A542A51284156F /* NSLogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = NSLogger.modulemap; path = ../../Headers/Public/NSLogger/NSLogger.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		70F6F810BC755D47BAFEC21F1090E7A9 /* Frameworks */ = {
+		8C83EE9E6EF6C5E8F409AA88B233F4CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C38A3F04AF53E1095D695A515CDA609B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -82,13 +134,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0096CF86F588F8BCAE60FAD9741CD34D /* Products */ = {
+		0DC5F2731AC01AE30C1EDEA6B8B7684F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7F5D6E68CE7A46BFA85754119860CD9C /* libNSLogger.a */,
-				0F1718FCD07B7397E735D356526910D7 /* libPods-NatureSound.a */,
+				D280F8CE1B209A0BF71318104847E2A0 /* libLGButton.a */,
+				CF22A4180A5A69309FE406A9B7E3A723 /* libNSLogger.a */,
+				C14105D3DB427B220899F2FE477E1FA7 /* libPods-NatureSound.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		0E66FF6FA6720A5B0326299709D9BBBC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE965B4F72CBD63FE3CC66871863A068 /* NSLogger.modulemap */,
+				8162E984F39F95C640598701CC6D7A53 /* NSLogger.xcconfig */,
+				674436683733DBC2E6B95E98308EA135 /* NSLogger-dummy.m */,
+				9D6CF69F26F8F5C99A619B1371EFAEAE /* NSLogger-prefix.pch */,
+				329186A4C5FC7A386501124205EE8434 /* NSLogger-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NSLogger";
 			sourceTree = "<group>";
 		};
 		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
@@ -126,17 +192,27 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		4FCB25F75CE519F5F40FD06364A86654 /* Support Files */ = {
+		480F88DAFCF1034DA9CC1F97FFF55398 /* ObjC */ = {
 			isa = PBXGroup;
 			children = (
-				FEB1C1ABDDF78A54C9A542A51284156F /* NSLogger.modulemap */,
-				C7F98B3FDE2C90972AFF43F87AC58832 /* NSLogger.xcconfig */,
-				45E98A2087E1D70D52E701B0FB64919D /* NSLogger-dummy.m */,
-				AE901EA0771208FECE6FC579CFE8C05C /* NSLogger-prefix.pch */,
-				224C6C2FDECF6AE68F13D80EA23C66CA /* NSLogger-umbrella.h */,
+				2E37F5101B63A7DE1BEBFD5554B84B40 /* LoggerClient.h */,
+				699CE1548CACFFBF3EA422BBEB86DB30 /* LoggerClient.m */,
+				B172A4B08239FA5835EA5CFBD38F7C39 /* LoggerCommon.h */,
+				2239E0ADB171A4E5849E92D689458E15 /* NSLogger.h */,
+				63464C06D46E2059CE400244AC5C5546 /* NSLoggerSwift.h */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/NSLogger";
+			name = ObjC;
+			sourceTree = "<group>";
+		};
+		4970356A0495ECC75A97E76F618FE383 /* NSLogger */ = {
+			isa = PBXGroup;
+			children = (
+				480F88DAFCF1034DA9CC1F97FFF55398 /* ObjC */,
+				0E66FF6FA6720A5B0326299709D9BBBC /* Support Files */,
+				5E2BC1909FFCE6AE0D3DDC7DB7B047FD /* Swift */,
+			);
+			name = NSLogger;
+			path = NSLogger;
 			sourceTree = "<group>";
 		};
 		5697CAFB64296508AFA1A9304D20778F /* Targets Support Files */ = {
@@ -147,12 +223,25 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		71051D7CE787A13656DD623D398DC7F1 /* Pods */ = {
+		5E2BC1909FFCE6AE0D3DDC7DB7B047FD /* Swift */ = {
 			isa = PBXGroup;
 			children = (
-				E1C5ED3483C0AAD8BD3F015ACAFD189C /* NSLogger */,
+				F4BA8804CE93A2F6F73372F29E810D26 /* NSLogger.swift */,
 			);
-			name = Pods;
+			name = Swift;
+			sourceTree = "<group>";
+		};
+		663AD606A17DA074DD2EEB55DA58B845 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				64B1F7A894CD8370366214ABF049CB09 /* LGButton.modulemap */,
+				3C0A24478B75928F6FDC3622806E4B55 /* LGButton.xcconfig */,
+				5542CF5BD362BF30C8448A0B25D2E4E4 /* LGButton-dummy.m */,
+				F0C62EC0A200931D0F975B391B7FA858 /* LGButton-prefix.pch */,
+				EBA4096C1AC46144CBA622A742A654B2 /* LGButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LGButton";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -160,51 +249,73 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
-				71051D7CE787A13656DD623D398DC7F1 /* Pods */,
-				0096CF86F588F8BCAE60FAD9741CD34D /* Products */,
+				C95696C6024A047DF4AD860B394B2604 /* Pods */,
+				0DC5F2731AC01AE30C1EDEA6B8B7684F /* Products */,
 				5697CAFB64296508AFA1A9304D20778F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D445AA4BED88433A2A2868F87F06F473 /* Swift */ = {
+		91CDCA314351CA7A656C28657F8DDD82 /* LGButton */ = {
 			isa = PBXGroup;
 			children = (
-				2BBDE0EE5B3440530ED48825A936ED26 /* NSLogger.swift */,
+				E86736590ADD38AD7A2F05B794EEE432 /* FontAwesome.swift */,
+				0A2541579A0DED304EE7EFDDC1EEA9A1 /* FontIon.swift */,
+				BF7DEB44ECECDDC310187072CD6AEEA5 /* FontLoader.swift */,
+				EE9179B0F717EF2377494B3E9CCC7386 /* FontMap.swift */,
+				629620639E6983F0A27EECBEBFEE4AB9 /* FontMaterial.swift */,
+				39341D1F3DF5B0BC835BDBF1730C643C /* FontOct.swift */,
+				CB4679DE88162D4E177D8E8E0257A8D7 /* FontOpenic.swift */,
+				4147788612D61C9C858369FB20773B4C /* FontThemify.swift */,
+				96E5D7F750695706C93A9FE861096DB3 /* LGButton.swift */,
+				33ED2729B33DE538EDEB0C7BBE9F1FE4 /* SwiftIconFont.swift */,
+				6BCB25C98378EA09F0CD42A15F6ABB13 /* SwiftIconLabel.swift */,
+				B8E66E265ADB2E0933803C57A4B6C5B2 /* Resources */,
+				663AD606A17DA074DD2EEB55DA58B845 /* Support Files */,
 			);
-			name = Swift;
+			name = LGButton;
+			path = LGButton;
 			sourceTree = "<group>";
 		};
-		E1C5ED3483C0AAD8BD3F015ACAFD189C /* NSLogger */ = {
+		B8E66E265ADB2E0933803C57A4B6C5B2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F8516636D37A3630EB0425275ABB251B /* ObjC */,
-				4FCB25F75CE519F5F40FD06364A86654 /* Support Files */,
-				D445AA4BED88433A2A2868F87F06F473 /* Swift */,
+				EB157629E876406B0F0CCA1A9B42650A /* FontAwesome.ttf */,
+				75785BAFE5ED9DA542A827470F41DF55 /* Ionicons.ttf */,
+				DA22E04376FC5E89CEA16F9EE32FBEFC /* LGButton.xib */,
+				5DEBCF07C5C3128CF29F215D40169E76 /* map-icons.ttf */,
+				6679E6D3A09C104A0A60B9A65401BA71 /* MaterialIcons-Regular.ttf */,
+				862EA4CA49AD7E2447E13E62CDF78604 /* octicons.ttf */,
+				AB7D6E4027A9B5EA9C97FAA163E1FC4F /* open-iconic.ttf */,
+				00E92AD4A4165D7B82A9113627284610 /* themify.ttf */,
 			);
-			name = NSLogger;
-			path = NSLogger;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		F8516636D37A3630EB0425275ABB251B /* ObjC */ = {
+		C95696C6024A047DF4AD860B394B2604 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AB5C3811FA03DD936D3D7EE71F702D10 /* LoggerClient.h */,
-				2C171C3F77DA987AD68B83217F150DF2 /* LoggerClient.m */,
-				1ECE610E58A0B08A33B9FFF6E8AE6C38 /* LoggerCommon.h */,
-				D48F426BACE036D8929A31675C72CCB1 /* NSLogger.h */,
-				F05603712604B56BB8E7BDC3CDC504D8 /* NSLoggerSwift.h */,
+				91CDCA314351CA7A656C28657F8DDD82 /* LGButton */,
+				4970356A0495ECC75A97E76F618FE383 /* NSLogger */,
 			);
-			name = ObjC;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		133D3CE3BD065AA83357CF8919853E83 /* Headers */ = {
+		9FDA13D6AF2EC4284593322ABDDD0571 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F28AFEDB71939331C1F87B78772B1BA /* Pods-NatureSound-umbrella.h in Headers */,
+				2FC9611CE675B3AE1B69E4C2A9A7FCAE /* Pods-NatureSound-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B31C71F74010A46B1E098EC6C691971E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70EE408B06D8F93D6166006377B70133 /* LGButton-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +334,43 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		15911A7CB09EB7C48E562661911C8F1C /* Pods-NatureSound */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6541C68F4CA9076ED92EDA87B06D7FF3 /* Build configuration list for PBXNativeTarget "Pods-NatureSound" */;
+			buildPhases = (
+				6ED1C87F3E401B104C08624DB5F89457 /* Sources */,
+				8C83EE9E6EF6C5E8F409AA88B233F4CB /* Frameworks */,
+				9FDA13D6AF2EC4284593322ABDDD0571 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AB2078866089A0DB57050EDDCD7D0F6 /* PBXTargetDependency */,
+				9DD8D14EDEBDA7E3544937C667D3CE50 /* PBXTargetDependency */,
+			);
+			name = "Pods-NatureSound";
+			productName = "Pods-NatureSound";
+			productReference = C14105D3DB427B220899F2FE477E1FA7 /* libPods-NatureSound.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		19B44164E9F071928B8E888AEFA93B7E /* LGButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7CEF85F57EC4120489A2DAF55D114E5 /* Build configuration list for PBXNativeTarget "LGButton" */;
+			buildPhases = (
+				2A9F7F1E90A9C260D4C1825FABDDB317 /* Sources */,
+				C38A3F04AF53E1095D695A515CDA609B /* Frameworks */,
+				B31C71F74010A46B1E098EC6C691971E /* Headers */,
+				0EC143E4211BEA25F2873EC5CC5ED345 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LGButton;
+			productName = LGButton;
+			productReference = D280F8CE1B209A0BF71318104847E2A0 /* libLGButton.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		4E5BC88009D9F4B52227EB8AA71F2CF6 /* NSLogger */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 06CD60BCB9905039D867D2AE5F81510B /* Build configuration list for PBXNativeTarget "NSLogger" */;
@@ -238,25 +386,7 @@
 			);
 			name = NSLogger;
 			productName = NSLogger;
-			productReference = 7F5D6E68CE7A46BFA85754119860CD9C /* libNSLogger.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		5EAF5701ADB25E05C2C02C62E671C21F /* Pods-NatureSound */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3B3156C10133D2278FADA6A6EC8040A4 /* Build configuration list for PBXNativeTarget "Pods-NatureSound" */;
-			buildPhases = (
-				D3AFA7CD84C3B87AB97D2BB69CBDC9E2 /* Sources */,
-				70F6F810BC755D47BAFEC21F1090E7A9 /* Frameworks */,
-				133D3CE3BD065AA83357CF8919853E83 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				35E71CF9221B1E5F4E7C0EAAB4855200 /* PBXTargetDependency */,
-			);
-			name = "Pods-NatureSound";
-			productName = "Pods-NatureSound";
-			productReference = 0F1718FCD07B7397E735D356526910D7 /* libPods-NatureSound.a */;
+			productReference = CF22A4180A5A69309FE406A9B7E3A723 /* libNSLogger.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -276,17 +406,39 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 0096CF86F588F8BCAE60FAD9741CD34D /* Products */;
+			productRefGroup = 0DC5F2731AC01AE30C1EDEA6B8B7684F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				19B44164E9F071928B8E888AEFA93B7E /* LGButton */,
 				4E5BC88009D9F4B52227EB8AA71F2CF6 /* NSLogger */,
-				5EAF5701ADB25E05C2C02C62E671C21F /* Pods-NatureSound */,
+				15911A7CB09EB7C48E562661911C8F1C /* Pods-NatureSound */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0EC143E4211BEA25F2873EC5CC5ED345 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/LGButton/LGButton.modulemap",
+				"${PODS_ROOT}/Headers/Public/LGButton/LGButton-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/LGButton-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/LGButton/LGButton.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/LGButton/LGButton-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+			showEnvVarsInLog = 1;
+		};
 		3631A30B565CE1F7CD199CF66744484C /* Copy generated compatibility header */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -311,11 +463,30 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D3AFA7CD84C3B87AB97D2BB69CBDC9E2 /* Sources */ = {
+		2A9F7F1E90A9C260D4C1825FABDDB317 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FFABB8F82BE07B7AE1CC5D7E8B1523D /* Pods-NatureSound-dummy.m in Sources */,
+				5E880214BC37429D370102008A72C325 /* FontAwesome.swift in Sources */,
+				11DDA1A6C6416D1FC96C17EBA5CD6658 /* FontIon.swift in Sources */,
+				B8290102569E2A17AFC5EAE1ADF3A58F /* FontLoader.swift in Sources */,
+				2AF079848A9A487916263FDAC0BFED30 /* FontMap.swift in Sources */,
+				58C5A80B7F42030292FFDCBCA6A14EC1 /* FontMaterial.swift in Sources */,
+				1753F3CDCA51954A18BCC1BD8B6984BA /* FontOct.swift in Sources */,
+				19DFFBDF978B521BC7758B9E7B76735C /* FontOpenic.swift in Sources */,
+				32B09AD6B4988F5CB53EB4BD878137EB /* FontThemify.swift in Sources */,
+				FB5A633A1E87386D0E4FB4E2CA63AB01 /* LGButton-dummy.m in Sources */,
+				B2D66E415498619AA326C14AA36B5BE8 /* LGButton.swift in Sources */,
+				A53CCF9EA0049D3F3E74DCDBB7906FD1 /* SwiftIconFont.swift in Sources */,
+				C33CCFC178F78F22DEB5E994CE25EB8D /* SwiftIconLabel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ED1C87F3E401B104C08624DB5F89457 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467AF1AB33AB03931F2B6607303D8A5A /* Pods-NatureSound-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,11 +503,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		35E71CF9221B1E5F4E7C0EAAB4855200 /* PBXTargetDependency */ = {
+		5AB2078866089A0DB57050EDDCD7D0F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LGButton;
+			target = 19B44164E9F071928B8E888AEFA93B7E /* LGButton */;
+			targetProxy = 96401234104CC3C9E55571FD807A6A22 /* PBXContainerItemProxy */;
+		};
+		9DD8D14EDEBDA7E3544937C667D3CE50 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = NSLogger;
 			target = 4E5BC88009D9F4B52227EB8AA71F2CF6 /* NSLogger */;
-			targetProxy = E197574D57B7C24A6B19A38A9D26BFE1 /* PBXContainerItemProxy */;
+			targetProxy = 6CB1A9409BC2813861BAC44F93FBD9F5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -399,9 +576,9 @@
 			};
 			name = Release;
 		};
-		7B51BE820E5D52A1C993D07F7B61FD87 /* Debug */ = {
+		2011532EDCE07FCCCCD7EF5F2DE712BC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A45C17FD40586812E12DC35E3A2EE63 /* Pods-NatureSound.debug.xcconfig */;
+			baseConfigurationReference = B213F7E0334A5E67B6D3143C324B0C06 /* Pods-NatureSound.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -418,15 +595,15 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 		88A1C5513D988CC816C5A3E18ED819EA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7F98B3FDE2C90972AFF43F87AC58832 /* NSLogger.xcconfig */;
+			baseConfigurationReference = 8162E984F39F95C640598701CC6D7A53 /* NSLogger.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -515,7 +692,7 @@
 		};
 		A32D2B6A4E5F2B4727C125BFEBCBC67D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7F98B3FDE2C90972AFF43F87AC58832 /* NSLogger.xcconfig */;
+			baseConfigurationReference = 8162E984F39F95C640598701CC6D7A53 /* NSLogger.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -540,9 +717,9 @@
 			};
 			name = Release;
 		};
-		DD173359BB8C392E432172F04E3D1853 /* Release */ = {
+		BB3E444555AF229DEE8A1A74B65B0CF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B213F7E0334A5E67B6D3143C324B0C06 /* Pods-NatureSound.release.xcconfig */;
+			baseConfigurationReference = 0A45C17FD40586812E12DC35E3A2EE63 /* Pods-NatureSound.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -559,7 +736,60 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E85B8A2DEFB516C07AFB5B9E74FF9AF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C0A24478B75928F6FDC3622806E4B55 /* LGButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LGButton/LGButton-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = Headers/Public/LGButton/LGButton.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LGButton;
+				PRODUCT_NAME = LGButton;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F47955CEBA68EA6BD764511F38E5E8F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C0A24478B75928F6FDC3622806E4B55 /* LGButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LGButton/LGButton-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = Headers/Public/LGButton/LGButton.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LGButton;
+				PRODUCT_NAME = LGButton;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -586,11 +816,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3B3156C10133D2278FADA6A6EC8040A4 /* Build configuration list for PBXNativeTarget "Pods-NatureSound" */ = {
+		6541C68F4CA9076ED92EDA87B06D7FF3 /* Build configuration list for PBXNativeTarget "Pods-NatureSound" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7B51BE820E5D52A1C993D07F7B61FD87 /* Debug */,
-				DD173359BB8C392E432172F04E3D1853 /* Release */,
+				BB3E444555AF229DEE8A1A74B65B0CF6 /* Debug */,
+				2011532EDCE07FCCCCD7EF5F2DE712BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7CEF85F57EC4120489A2DAF55D114E5 /* Build configuration list for PBXNativeTarget "LGButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E85B8A2DEFB516C07AFB5B9E74FF9AF9 /* Debug */,
+				F47955CEBA68EA6BD764511F38E5E8F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

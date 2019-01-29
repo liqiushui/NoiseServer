@@ -310,6 +310,7 @@
 				B89DBF5721FADEF0005DB702 /* Sources */,
 				B89DBF5821FADEF0005DB702 /* Frameworks */,
 				B89DBF5921FADEF0005DB702 /* Resources */,
+				39F026B48C3685D747A09DD2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -438,6 +439,38 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		39F026B48C3685D747A09DD2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NatureSound/Pods-NatureSound-resources.sh",
+				"${PODS_ROOT}/LGButton/LGButton/Resources/FontAwesome.ttf",
+				"${PODS_ROOT}/LGButton/LGButton/Resources/Ionicons.ttf",
+				"${PODS_ROOT}/LGButton/LGButton/Resources/LGButton.xib",
+				"${PODS_ROOT}/LGButton/LGButton/Resources/map-icons.ttf",
+				"${PODS_ROOT}/LGButton/LGButton/Resources/MaterialIcons-Regular.ttf",
+				"${PODS_ROOT}/LGButton/LGButton/Resources/octicons.ttf",
+				"${PODS_ROOT}/LGButton/LGButton/Resources/open-iconic.ttf",
+				"${PODS_ROOT}/LGButton/LGButton/Resources/themify.ttf",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LGButton.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/map-icons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons-Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/open-iconic.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/themify.ttf",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NatureSound/Pods-NatureSound-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		B95A66598F04A221FC5F405E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

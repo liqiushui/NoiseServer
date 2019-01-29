@@ -1,18 +1,22 @@
 PODS:
+  - LGButton (1.1.2)
   - NSLogger/ObjC (1.9.7)
   - NSLogger/Swift (1.9.7):
     - NSLogger/ObjC
 
 DEPENDENCIES:
+  - LGButton
   - NSLogger/Swift
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - LGButton
     - NSLogger
 
 SPEC CHECKSUMS:
+  LGButton: 0e07c243d1655b507502c3b9271d3c3a7c22dcaa
   NSLogger: cf3013a4fba189f631f07e6c3d5b8ce2b209654b
 
-PODFILE CHECKSUM: d70a3ecd7d4328b9bbd5551b7341c517f0517c10
+PODFILE CHECKSUM: 19b60f6a4f5ae62e8eb32963f1c30ba99e3ca507
 
 COCOAPODS: 1.5.3

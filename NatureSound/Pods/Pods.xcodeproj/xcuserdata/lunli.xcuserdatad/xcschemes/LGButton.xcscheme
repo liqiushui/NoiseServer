@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "15911A7CB09EB7C48E562661911C8F1C"
-               BlueprintName = "Pods-NatureSound"
+               BlueprintIdentifier = "19B44164E9F071928B8E888AEFA93B7E"
+               BlueprintName = "LGButton"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libPods-NatureSound.a">
+               BuildableName = "libLGButton.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
