@@ -110,7 +110,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OZB-Nw-Lqd" customClass="LGButton" customModule="LGButton">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OZB-Nw-Lqd" customClass="LGButton" customModule="LGButton">
                                 <rect key="frame" x="67" y="113" width="240" height="60"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -124,19 +124,86 @@
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <real key="value" value="30"/>
                                     </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="titleFontSize">
+                                        <real key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
+                                        <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="modifyTimeCounddown:" destination="KC2-ag-ufI" eventType="touchUpInside" id="zmN-Gn-qF8"/>
                                 </connections>
                             </view>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8ZM-vS-98v" userLabel="Start" customClass="LGButton" customModule="LGButton">
+                                <rect key="frame" x="67" y="248" width="240" height="60"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="6PH-6k-xlL"/>
+                                    <constraint firstAttribute="width" constant="240" id="OKa-yK-lJb"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="bgColor">
+                                        <color key="value" red="0.8862745098" green="0.8862745098" blue="0.8862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="titleFontSize">
+                                        <real key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
+                                        <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="titleString" value="Start"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="startClick:" destination="KC2-ag-ufI" eventType="valueChanged" id="FvN-iA-fgm"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MAF-Nf-GDc" userLabel="Stop" customClass="LGButton" customModule="LGButton">
+                                <rect key="frame" x="67" y="390" width="240" height="60"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="1GG-uK-fcQ"/>
+                                    <constraint firstAttribute="height" constant="60" id="jrV-OZ-MlB"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="bgColor">
+                                        <color key="value" red="0.8862745098" green="0.8862745098" blue="0.8862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="titleFontSize">
+                                        <real key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
+                                        <color key="value" cocoaTouchSystemColor="darkTextColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="titleString" value="Stop"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="stopClick:" destination="KC2-ag-ufI" eventType="touchUpInside" id="3n9-TE-aJ2"/>
+                                </connections>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.36919919979999999" green="1" blue="0.48424931399999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="8ZM-vS-98v" firstAttribute="centerX" secondItem="tQh-1P-GeZ" secondAttribute="centerX" id="Chw-uO-bbw"/>
                             <constraint firstItem="OZB-Nw-Lqd" firstAttribute="centerX" secondItem="tQh-1P-GeZ" secondAttribute="centerX" id="F7h-mK-joN"/>
+                            <constraint firstItem="8ZM-vS-98v" firstAttribute="top" secondItem="OZB-Nw-Lqd" secondAttribute="bottom" constant="30" id="dOb-re-Srt"/>
+                            <constraint firstItem="MAF-Nf-GDc" firstAttribute="centerX" secondItem="tQh-1P-GeZ" secondAttribute="centerX" id="dPt-Aw-9J9"/>
+                            <constraint firstItem="MAF-Nf-GDc" firstAttribute="top" secondItem="8ZM-vS-98v" secondAttribute="bottom" constant="30" id="uFJ-Nw-xZU"/>
                             <constraint firstItem="OZB-Nw-Lqd" firstAttribute="top" secondItem="tQh-1P-GeZ" secondAttribute="top" constant="93" id="wh4-ne-zWH"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="tQh-1P-GeZ"/>
                     </view>
+                    <connections>
+                        <outlet property="startBtn" destination="8ZM-vS-98v" id="AgB-L2-lgh"/>
+                        <outlet property="stopBtn" destination="MAF-Nf-GDc" id="oM6-Ni-4AQ"/>
+                        <outlet property="timeBtn" destination="OZB-Nw-Lqd" id="OyQ-R1-EvF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3uk-wZ-df5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

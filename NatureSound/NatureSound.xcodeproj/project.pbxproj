@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1E99E1F9CDF24C5CF408A328 /* libPods-NatureSound.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F6D5B4EB0A37713A2A8FA4F /* libPods-NatureSound.a */; };
+		B83C2B3B22004FF100003904 /* CountDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83C2B3A22004FF100003904 /* CountDown.swift */; };
 		B85F994921FB13650037BCFA /* rain@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B85F994821FB13650037BCFA /* rain@2x.png */; };
 		B85F994C21FB1CA60037BCFA /* TestCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85F994B21FB1CA60037BCFA /* TestCenter.swift */; };
 		B85F994D21FB23F10037BCFA /* rain.aac in Resources */ = {isa = PBXBuildFile; fileRef = B85F994721FB12B30037BCFA /* rain.aac */; };
@@ -65,6 +66,7 @@
 		3B85552478B04C42F06BBF36 /* Pods-NatureSound.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NatureSound.release.xcconfig"; path = "Pods/Target Support Files/Pods-NatureSound/Pods-NatureSound.release.xcconfig"; sourceTree = "<group>"; };
 		47355D6069DA511BABEE66C4 /* Pods-NatureSound.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NatureSound.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NatureSound/Pods-NatureSound.debug.xcconfig"; sourceTree = "<group>"; };
 		5F6D5B4EB0A37713A2A8FA4F /* libPods-NatureSound.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NatureSound.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B83C2B3A22004FF100003904 /* CountDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDown.swift; sourceTree = "<group>"; };
 		B85F994521FB10970037BCFA /* list.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = list.json; sourceTree = "<group>"; };
 		B85F994721FB12B30037BCFA /* rain.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = rain.aac; sourceTree = "<group>"; };
 		B85F994821FB13650037BCFA /* rain@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rain@2x.png"; sourceTree = "<group>"; };
@@ -140,6 +142,14 @@
 				3B85552478B04C42F06BBF36 /* Pods-NatureSound.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		B83C2B3922004FD200003904 /* CountDown */ = {
+			isa = PBXGroup;
+			children = (
+				B83C2B3A22004FF100003904 /* CountDown.swift */,
+			);
+			path = CountDown;
 			sourceTree = "<group>";
 		};
 		B85F994621FB12890037BCFA /* Resource */ = {
@@ -249,6 +259,7 @@
 		B89DBF5D21FADEF0005DB702 /* NatureSound */ = {
 			isa = PBXGroup;
 			children = (
+				B83C2B3922004FD200003904 /* CountDown */,
 				B85F996421FEFBD20037BCFA /* Notification */,
 				B85F995D21FEF1320037BCFA /* UI */,
 				B85F995921FED8AD0037BCFA /* AudopEngine */,
@@ -503,6 +514,7 @@
 				B85F998F22003C690037BCFA /* EZYGradientView.swift in Sources */,
 				B85F998B22003C690037BCFA /* DPTimeCollectionViewCell.swift in Sources */,
 				B85F996621FEFBE70037BCFA /* Noti.swift in Sources */,
+				B83C2B3B22004FF100003904 /* CountDown.swift in Sources */,
 				B85F994C21FB1CA60037BCFA /* TestCenter.swift in Sources */,
 				B89DC03321FB0CED005DB702 /* SoundModelCenter.swift in Sources */,
 				B89DBF6121FADEF1005DB702 /* ViewController.swift in Sources */,
