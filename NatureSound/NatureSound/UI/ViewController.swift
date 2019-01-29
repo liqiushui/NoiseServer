@@ -114,12 +114,20 @@ class ViewController: UIViewController, UICollectionViewDataSource,  UICollectio
     @IBAction func settingClick(_ sender: UIButton) {
         
         Logger.shared.log(.model, .info, "settingClick \(sender) click")
+        
+
     }
     
     
     @IBAction func timerClick(_ sender: UIButton) {
         
         Logger.shared.log(.model, .info, "timerClick \(sender) click")
+        
+        let story = UIStoryboard.init(name: "Main", bundle: Bundle.main)
+        let timevc = story.instantiateViewController(withIdentifier: "TimeViewController")//TimeViewController.init(nibName: nil, bundle: nil)
+        present(timevc, animated: true) {
+            Logger.shared.log(.model, .info, "present TimeViewController vc")
+        }
     }
 }
 

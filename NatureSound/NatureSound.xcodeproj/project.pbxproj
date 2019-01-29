@@ -30,6 +30,7 @@
 		B85F998D22003C690037BCFA /* DPTimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85F998822003C690037BCFA /* DPTimePicker.swift */; };
 		B85F998E22003C690037BCFA /* DPTimePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = B85F998922003C690037BCFA /* DPTimePicker.xib */; };
 		B85F998F22003C690037BCFA /* EZYGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85F998A22003C690037BCFA /* EZYGradientView.swift */; };
+		B85F999122003F6B0037BCFA /* TimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85F999022003F6B0037BCFA /* TimeViewController.swift */; };
 		B89DBF5F21FADEF1005DB702 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89DBF5E21FADEF1005DB702 /* AppDelegate.swift */; };
 		B89DBF6121FADEF1005DB702 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89DBF6021FADEF1005DB702 /* ViewController.swift */; };
 		B89DBF6421FADEF1005DB702 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B89DBF6221FADEF1005DB702 /* Main.storyboard */; };
@@ -86,6 +87,7 @@
 		B85F998822003C690037BCFA /* DPTimePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPTimePicker.swift; sourceTree = "<group>"; };
 		B85F998922003C690037BCFA /* DPTimePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DPTimePicker.xib; sourceTree = "<group>"; };
 		B85F998A22003C690037BCFA /* EZYGradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EZYGradientView.swift; sourceTree = "<group>"; };
+		B85F999022003F6B0037BCFA /* TimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeViewController.swift; sourceTree = "<group>"; };
 		B89DBF5B21FADEF0005DB702 /* NatureSound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NatureSound.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B89DBF5E21FADEF1005DB702 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B89DBF6021FADEF1005DB702 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 				B89DC02B21FB04E3005DB702 /* SoundCollectionViewCell.swift */,
 				B89DC02C21FB04E3005DB702 /* SoundCollectionViewCell.xib */,
 				B85F995E21FEF1530037BCFA /* SoundSlider.swift */,
+				B85F999022003F6B0037BCFA /* TimeViewController.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -503,6 +506,7 @@
 				B85F994C21FB1CA60037BCFA /* TestCenter.swift in Sources */,
 				B89DC03321FB0CED005DB702 /* SoundModelCenter.swift in Sources */,
 				B89DBF6121FADEF1005DB702 /* ViewController.swift in Sources */,
+				B85F999122003F6B0037BCFA /* TimeViewController.swift in Sources */,
 				B85F995321FEA5580037BCFA /* SoundViewModel.swift in Sources */,
 				B89DC02D21FB04E3005DB702 /* SoundCollectionViewCell.swift in Sources */,
 				B89DC03121FB08B0005DB702 /* SoundItem.swift in Sources */,
