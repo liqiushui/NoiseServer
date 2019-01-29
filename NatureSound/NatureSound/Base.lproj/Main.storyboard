@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.16.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -42,13 +41,39 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="gM9-II-7L8"/>
                                 </connections>
                             </collectionView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eiT-d1-WZU">
+                                <rect key="frame" x="335" y="40" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="BBW-y6-yDE"/>
+                                    <constraint firstAttribute="width" constant="20" id="z1E-xT-ZcB"/>
+                                </constraints>
+                                <state key="normal" image="setting.png"/>
+                                <connections>
+                                    <action selector="settingClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GZ5-OU-ASe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tb7-ys-UK7">
+                                <rect key="frame" x="20" y="40" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="eWI-tn-fvX"/>
+                                    <constraint firstAttribute="height" constant="20" id="mI9-CK-b4v"/>
+                                </constraints>
+                                <state key="normal" image="timer.png"/>
+                                <connections>
+                                    <action selector="timerClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2NM-rJ-qc1"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="tb7-ys-UK7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Fc7-Gw-XX3"/>
                             <constraint firstItem="uE7-3i-o3L" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="GA0-sP-bhV"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uE7-3i-o3L" secondAttribute="trailing" id="Nub-1c-030"/>
                             <constraint firstItem="uE7-3i-o3L" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="VoE-xI-5gH"/>
+                            <constraint firstItem="tb7-ys-UK7" firstAttribute="centerY" secondItem="eiT-d1-WZU" secondAttribute="centerY" id="lvM-4F-1Ll"/>
+                            <constraint firstItem="eiT-d1-WZU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="mY9-mm-7C1"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="uE7-3i-o3L" secondAttribute="bottom" id="o2C-dV-iu6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eiT-d1-WZU" secondAttribute="trailing" constant="20" id="vgJ-y0-seb"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -58,6 +83,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="141.59999999999999" y="133.5832083958021"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="setting.png" width="40" height="40"/>
+        <image name="timer.png" width="40" height="40"/>
+    </resources>
 </document>

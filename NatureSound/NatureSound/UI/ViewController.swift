@@ -23,7 +23,7 @@ class ViewController: UIViewController, UICollectionViewDataSource,  UICollectio
         
         colview.register(UINib(nibName: "SoundCollectionViewCell", bundle: nil),
                          forCellWithReuseIdentifier: "SoundCollectionViewCell")
-        colview.backgroundColor = UIColor.clear
+//        colview.backgroundColor = UIColor.clear
         
         setupLayout()
         setupNotis()
@@ -102,6 +102,24 @@ class ViewController: UIViewController, UICollectionViewDataSource,  UICollectio
     public func audioPlayerDidFinishPlaying(_ player: AVAudioPlayer, successfully flag: Bool)
     {
         Logger.shared.log(.model, .info, "player \(player.extDic["key"] ?? "unknown") did finish play")
+    }
+    
+    
+    ////////////////////////////////////////////////////////////////
+    //MARK:-
+    //MARK: Action
+    //MARK:-
+    ////////////////////////////////////////////////////////////////
+
+    @IBAction func settingClick(_ sender: UIButton) {
+        
+        Logger.shared.log(.model, .info, "settingClick \(sender) click")
+    }
+    
+    
+    @IBAction func timerClick(_ sender: UIButton) {
+        
+        Logger.shared.log(.model, .info, "timerClick \(sender) click")
     }
 }
 

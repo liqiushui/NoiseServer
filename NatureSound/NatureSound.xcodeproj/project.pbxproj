@@ -23,6 +23,13 @@
 		B85F996821FF03220037BCFA /* NSObjectExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85F996721FF03220037BCFA /* NSObjectExt.swift */; };
 		B85F996A21FF25B90037BCFA /* UIViewAnimateBgColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85F996921FF25B90037BCFA /* UIViewAnimateBgColorExt.swift */; };
 		B85F996C21FF28EC0037BCFA /* UIColorEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85F996B21FF28EC0037BCFA /* UIColorEx.swift */; };
+		B85F9981220031D50037BCFA /* setting@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B85F9980220031D50037BCFA /* setting@2x.png */; };
+		B85F9983220032440037BCFA /* timer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B85F9982220032440037BCFA /* timer@2x.png */; };
+		B85F998B22003C690037BCFA /* DPTimeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85F998622003C690037BCFA /* DPTimeCollectionViewCell.swift */; };
+		B85F998C22003C690037BCFA /* DPTimeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B85F998722003C690037BCFA /* DPTimeCollectionViewCell.xib */; };
+		B85F998D22003C690037BCFA /* DPTimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85F998822003C690037BCFA /* DPTimePicker.swift */; };
+		B85F998E22003C690037BCFA /* DPTimePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = B85F998922003C690037BCFA /* DPTimePicker.xib */; };
+		B85F998F22003C690037BCFA /* EZYGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85F998A22003C690037BCFA /* EZYGradientView.swift */; };
 		B89DBF5F21FADEF1005DB702 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89DBF5E21FADEF1005DB702 /* AppDelegate.swift */; };
 		B89DBF6121FADEF1005DB702 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89DBF6021FADEF1005DB702 /* ViewController.swift */; };
 		B89DBF6421FADEF1005DB702 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B89DBF6221FADEF1005DB702 /* Main.storyboard */; };
@@ -72,6 +79,13 @@
 		B85F996721FF03220037BCFA /* NSObjectExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectExt.swift; sourceTree = "<group>"; };
 		B85F996921FF25B90037BCFA /* UIViewAnimateBgColorExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewAnimateBgColorExt.swift; sourceTree = "<group>"; };
 		B85F996B21FF28EC0037BCFA /* UIColorEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorEx.swift; sourceTree = "<group>"; };
+		B85F9980220031D50037BCFA /* setting@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting@2x.png"; sourceTree = "<group>"; };
+		B85F9982220032440037BCFA /* timer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "timer@2x.png"; sourceTree = "<group>"; };
+		B85F998622003C690037BCFA /* DPTimeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPTimeCollectionViewCell.swift; sourceTree = "<group>"; };
+		B85F998722003C690037BCFA /* DPTimeCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DPTimeCollectionViewCell.xib; sourceTree = "<group>"; };
+		B85F998822003C690037BCFA /* DPTimePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPTimePicker.swift; sourceTree = "<group>"; };
+		B85F998922003C690037BCFA /* DPTimePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DPTimePicker.xib; sourceTree = "<group>"; };
+		B85F998A22003C690037BCFA /* EZYGradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EZYGradientView.swift; sourceTree = "<group>"; };
 		B89DBF5B21FADEF0005DB702 /* NatureSound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NatureSound.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B89DBF5E21FADEF1005DB702 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B89DBF6021FADEF1005DB702 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -129,6 +143,8 @@
 		B85F994621FB12890037BCFA /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				B85F9982220032440037BCFA /* timer@2x.png */,
+				B85F9980220031D50037BCFA /* setting@2x.png */,
 				B85F996221FEF9B30037BCFA /* slider@2x.png */,
 				B85F995121FEA4460037BCFA /* fire.aac */,
 				B85F994F21FEA4330037BCFA /* fire@2x.png */,
@@ -184,9 +200,30 @@
 			path = Notification;
 			sourceTree = "<group>";
 		};
+		B85F998422003C500037BCFA /* ThirdLib */ = {
+			isa = PBXGroup;
+			children = (
+				B85F998522003C690037BCFA /* DPTimePicker */,
+			);
+			path = ThirdLib;
+			sourceTree = "<group>";
+		};
+		B85F998522003C690037BCFA /* DPTimePicker */ = {
+			isa = PBXGroup;
+			children = (
+				B85F998622003C690037BCFA /* DPTimeCollectionViewCell.swift */,
+				B85F998722003C690037BCFA /* DPTimeCollectionViewCell.xib */,
+				B85F998822003C690037BCFA /* DPTimePicker.swift */,
+				B85F998922003C690037BCFA /* DPTimePicker.xib */,
+				B85F998A22003C690037BCFA /* EZYGradientView.swift */,
+			);
+			path = DPTimePicker;
+			sourceTree = "<group>";
+		};
 		B89DBF5221FADEF0005DB702 = {
 			isa = PBXGroup;
 			children = (
+				B85F998422003C500037BCFA /* ThirdLib */,
 				B89DBF5D21FADEF0005DB702 /* NatureSound */,
 				B89DBF7221FADEF1005DB702 /* NatureSoundTests */,
 				B89DBF7D21FADEF2005DB702 /* NatureSoundUITests */,
@@ -373,7 +410,11 @@
 				B85F994921FB13650037BCFA /* rain@2x.png in Resources */,
 				B89DC02E21FB04E3005DB702 /* SoundCollectionViewCell.xib in Resources */,
 				B89DBF6921FADEF1005DB702 /* LaunchScreen.storyboard in Resources */,
+				B85F998C22003C690037BCFA /* DPTimeCollectionViewCell.xib in Resources */,
+				B85F9983220032440037BCFA /* timer@2x.png in Resources */,
+				B85F9981220031D50037BCFA /* setting@2x.png in Resources */,
 				B89DBF6621FADEF1005DB702 /* Assets.xcassets in Resources */,
+				B85F998E22003C690037BCFA /* DPTimePicker.xib in Resources */,
 				B85F996321FEF9B30037BCFA /* slider@2x.png in Resources */,
 				B85F995021FEA4330037BCFA /* fire@2x.png in Resources */,
 				B89DBF6421FADEF1005DB702 /* Main.storyboard in Resources */,
@@ -423,6 +464,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B85F996C21FF28EC0037BCFA /* UIColorEx.swift in Sources */,
+				B85F998F22003C690037BCFA /* EZYGradientView.swift in Sources */,
+				B85F998B22003C690037BCFA /* DPTimeCollectionViewCell.swift in Sources */,
 				B85F996621FEFBE70037BCFA /* Noti.swift in Sources */,
 				B85F994C21FB1CA60037BCFA /* TestCenter.swift in Sources */,
 				B89DC03321FB0CED005DB702 /* SoundModelCenter.swift in Sources */,
@@ -435,6 +478,7 @@
 				B89DBF5F21FADEF1005DB702 /* AppDelegate.swift in Sources */,
 				B85F996821FF03220037BCFA /* NSObjectExt.swift in Sources */,
 				B85F995821FED5CC0037BCFA /* UIImageExtension.swift in Sources */,
+				B85F998D22003C690037BCFA /* DPTimePicker.swift in Sources */,
 				B85F995B21FED9660037BCFA /* NSAudioPlayCenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
