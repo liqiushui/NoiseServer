@@ -125,9 +125,8 @@ class ViewController: UIViewController, UICollectionViewDataSource,  UICollectio
         
         let story = UIStoryboard.init(name: "Main", bundle: Bundle.main)
         let timevc = story.instantiateViewController(withIdentifier: "TimeViewController")//TimeViewController.init(nibName: nil, bundle: nil)
-        present(timevc, animated: true) {
-            Logger.shared.log(.model, .info, "present TimeViewController vc")
-        }
+        self.navigationController!.pushViewController(timevc, animated: true)
+        Logger.shared.log(.model, .info, "present TimeViewController vc")
     }
 }
 
