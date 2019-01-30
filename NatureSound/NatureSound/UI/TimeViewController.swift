@@ -19,27 +19,60 @@ class TimeViewController: UIViewController, DPTimePickerDelegate {
     
     @IBOutlet weak var stopBtn: LGButton!
     
+    @IBOutlet weak var pauseBtn: LGButton!
+    
+    deinit {
+        NotificationCenter.default.removeObserver(self)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        resetTimerToDefault()
+        
+        NotificationCenter.default.addObserver(self,
+                                               selector: #selector(handleCountDownChange(_:)),
+                                               name: Noti.CountDownChangeNoti,
+                                               object: nil)
 
         self.title = "Time Setup"
         timeBtn.titleString = CountDown.shared.timeFormate()
         view.backgroundColor = UIColor.hexStringToUIColor(hex: "EC8371")
-        
         updateButtons()
+    }
+    
+    func resetTimerToDefault() {
+        if CountDown.shared.totalSecs == 0 && !CountDown.shared.isRuning{
+            CountDown.shared.updateCountDown(0, 5)
+        }
     }
     
     
     func updateButtons() {
+        
         if CountDown.shared.isRuning {
-            timeBtn.titleColor = UIColor.darkText
-            startBtn.titleColor = UIColor.lightGray
-            stopBtn.titleColor = UIColor.darkText
+            
+            pauseBtn.titleColor = UIColor.darkText
+            if CountDown.shared.isPause {
+                timeBtn.titleColor = UIColor.lightGray
+                startBtn.titleColor = UIColor.lightGray
+                stopBtn.titleColor = UIColor.lightGray
+                pauseBtn.titleString = "Resume"
+            }
+            else {
+                timeBtn.titleColor = UIColor.darkText
+                startBtn.titleColor = UIColor.lightGray
+                stopBtn.titleColor = UIColor.darkText
+                pauseBtn.titleString = "Pause"
+            }
         }
         else {
             timeBtn.titleColor = UIColor.lightGray
             startBtn.titleColor = UIColor.darkText
             stopBtn.titleColor = UIColor.lightGray
+            pauseBtn.titleString = "Pause"
+            pauseBtn.titleColor = UIColor.lightGray
+            
         }
     }
     
@@ -93,7 +126,11 @@ class TimeViewController: UIViewController, DPTimePickerDelegate {
     }
 
     func timePickerDidConfirm(_ hour: String, minute: String, timePicker: DPTimePicker) {
+        
         Logger.shared.log(.model, .info, "Confirm vc hour \(hour) minute \(minute)")
+        CountDown.shared.updateCountDown(Int(hour)!, Int(minute)!)
+        timeBtn.titleString = CountDown.shared.timeFormate()
+
         dismiss()
     }
     
@@ -105,12 +142,38 @@ class TimeViewController: UIViewController, DPTimePickerDelegate {
     
     @IBAction func stopClick(_ sender: LGButton) {
         Logger.shared.log(.model, .info, "stopClick")
-
+        CountDown.shared.stopCountDown()
+        updateButtons()
     }
     
     @IBAction func startClick(_ sender: LGButton) {
         Logger.shared.log(.model, .info, "startClick")
-
+        CountDown.shared.startCountDown()
+    }
+    
+    @IBAction func pauseClick(_ sender: Any) {
+        
+        Logger.shared.log(.model, .info, "PauseClick")
+        guard CountDown.shared.isRuning else {
+            Logger.shared.log(.model, .info, "Count Down not runing")
+            return
+        }
+        
+        if CountDown.shared.isPause {
+            
+            CountDown.shared.resumeCountDown()
+        }
+        else {
+            CountDown.shared.pauseCountDown()
+        }
+        
+        updateButtons()
+    }
+    @objc func handleCountDownChange(_ noti:Notification) {
+        
+        timeBtn.titleString = CountDown.shared.timeFormate()
+        updateButtons()
+        
     }
     
 }

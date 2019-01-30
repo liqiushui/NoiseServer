@@ -11,5 +11,6 @@ import UIKit
 class Noti: NSObject {
     
     static let VolumeChangeNoti = Notification.Name("VolumeChangeNoti")
+    static let CountDownChangeNoti = Notification.Name("CountDownChangeNoti")
 
 }

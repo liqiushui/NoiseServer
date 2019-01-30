@@ -158,7 +158,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="titleString" value="Start"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="startClick:" destination="KC2-ag-ufI" eventType="valueChanged" id="FvN-iA-fgm"/>
+                                    <action selector="startClick:" destination="KC2-ag-ufI" eventType="touchUpInside" id="cFC-JD-7NE"/>
                                 </connections>
                             </view>
                             <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MAF-Nf-GDc" userLabel="Stop" customClass="LGButton" customModule="LGButton">
@@ -187,19 +187,48 @@
                                     <action selector="stopClick:" destination="KC2-ag-ufI" eventType="touchUpInside" id="3n9-TE-aJ2"/>
                                 </connections>
                             </view>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZYK-Ox-qzb" userLabel="pause" customClass="LGButton" customModule="LGButton">
+                                <rect key="frame" x="67" y="527" width="240" height="60"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="OkM-a4-1ad"/>
+                                    <constraint firstAttribute="width" constant="240" id="jGf-QS-ViY"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="bgColor">
+                                        <color key="value" red="0.8862745098" green="0.8862745098" blue="0.8862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="titleFontSize">
+                                        <real key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
+                                        <color key="value" cocoaTouchSystemColor="darkTextColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="titleString" value="Pause"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="pauseClick:" destination="KC2-ag-ufI" eventType="touchUpInside" id="ObP-6V-oY0"/>
+                                </connections>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.36919919979999999" green="1" blue="0.48424931399999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="ZYK-Ox-qzb" firstAttribute="centerX" secondItem="tQh-1P-GeZ" secondAttribute="centerX" id="6Gm-jv-4mP"/>
                             <constraint firstItem="8ZM-vS-98v" firstAttribute="centerX" secondItem="tQh-1P-GeZ" secondAttribute="centerX" id="Chw-uO-bbw"/>
                             <constraint firstItem="OZB-Nw-Lqd" firstAttribute="centerX" secondItem="tQh-1P-GeZ" secondAttribute="centerX" id="F7h-mK-joN"/>
                             <constraint firstItem="8ZM-vS-98v" firstAttribute="top" secondItem="OZB-Nw-Lqd" secondAttribute="bottom" constant="30" id="dOb-re-Srt"/>
                             <constraint firstItem="MAF-Nf-GDc" firstAttribute="centerX" secondItem="tQh-1P-GeZ" secondAttribute="centerX" id="dPt-Aw-9J9"/>
+                            <constraint firstItem="ZYK-Ox-qzb" firstAttribute="top" secondItem="MAF-Nf-GDc" secondAttribute="bottom" constant="30" id="faK-Xm-LUG"/>
                             <constraint firstItem="MAF-Nf-GDc" firstAttribute="top" secondItem="8ZM-vS-98v" secondAttribute="bottom" constant="30" id="uFJ-Nw-xZU"/>
                             <constraint firstItem="OZB-Nw-Lqd" firstAttribute="top" secondItem="tQh-1P-GeZ" secondAttribute="top" constant="93" id="wh4-ne-zWH"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="tQh-1P-GeZ"/>
                     </view>
                     <connections>
+                        <outlet property="pauseBtn" destination="ZYK-Ox-qzb" id="KFV-Z9-7VK"/>
                         <outlet property="startBtn" destination="8ZM-vS-98v" id="AgB-L2-lgh"/>
                         <outlet property="stopBtn" destination="MAF-Nf-GDc" id="oM6-Ni-4AQ"/>
                         <outlet property="timeBtn" destination="OZB-Nw-Lqd" id="OyQ-R1-EvF"/>
